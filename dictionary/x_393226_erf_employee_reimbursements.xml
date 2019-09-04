@@ -10,8 +10,9 @@
                 <element inactive_on_update="false" label="3 - Low" sequence="2" value="3"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="If Other" max_length="100" name="u_other_payment" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="If Other" max_length="150" name="u_other_travel" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="cash" label="Payment Method" mandatory="true" max_length="40" name="u_payment_method" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="credit" label="Payment Method" mandatory="true" max_length="40" name="u_payment_method" type="string">
             <choice>
                 <element inactive_on_update="false" label="Cash" sequence="0" value="cash"/>
                 <element inactive_on_update="false" label="Credit Card" sequence="1" value="credit"/>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Update Travel type options to match Mode of travel selection</description>
+        <field>u_travel_mode</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set Travel Type Options</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+ // get the travel type field
+	var travelTypes = g_form.getValue("u_travel_type");
+// 	clear the travel type options
+	g_form.clearOptions("u_travel_type");
+	
+// 	If the new value of travel mode is flight
+// 	travel type options are economy/bussiness class
+	if(newValue == 'flight'){
+		g_form.addOption('u_travel_type', 'economy', 'Economy');
+		g_form.addOption('u_travel_type', 'bussiness', 'Bussiness Class');
+	}
+	
+// 	If the new value of travel mode is train
+// 	travel type options are class1/class2/class3
+	if(newValue == 'train'){
+		g_form.addOption('u_travel_type', 'class1', 'Class1');
+		g_form.addOption('u_travel_type', 'class2', 'Class2');
+		g_form.addOption('u_travel_type', 'class3', 'Class3');
+	}
+	
+// 	If the new value of travel mode is Bus
+// 	travel type options are Luxury Seater/ Semi sleeper/ full sleeper
+	if(newValue == 'bus'){
+		g_form.addOption('u_travel_type', 'luxury', 'Luxury Seater');
+		g_form.addOption('u_travel_type', 'semi_sleeper', 'Semi Sleeper');
+		g_form.addOption('u_travel_type', 'full_sleeper', 'Full Sleeper');
+	}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-04 14:28:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>80c235fbdba33300e86f2a36ca9619ec</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Set Travel Type Options</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_update_name>sys_script_client_80c235fbdba33300e86f2a36ca9619ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-04 14:29:26</sys_updated_on>
+        <table>x_393226_erf_employee_reimbursements</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
