@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Manage Expense type entries</description>
+        <field>u_expense_type</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Manage Expense Type</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if(isLoading || newValue === ''){
+		return;
+	}
+	
+	var pairs = makePairs(control);
+// 	console.log(pairs);
+	
+	var total = 0;
+	for(var key in pairs){
+		if(pairs[key]){
+			var value = parseFloat(pairs[key]);
+			total += value;
+		}
+	}
+// 	console.log(total);
+	
+	g_form.setValue('u_amount', total.toString());
+	
+}
+
+function makePairs(control){
+	var expenceTypes = control.value.replace(/\$|"|{|}/g, '');
+	console.log(expenceTypes);
+	expenceTypes = expenceTypes.split(',');
+	
+	var obj = {};
+	for(var i = 0; i < expenceTypes.length; i++){
+		var str = expenceTypes[i].split(':');
+		obj[str[0].trim()] = str[1].trim();
+	}
+	return obj;
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-04 16:30:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bf0fc2b7db273300e86f2a36ca9619dc</sys_id>
+        <sys_mod_count>99</sys_mod_count>
+        <sys_name>Manage Expense Type</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_update_name>sys_script_client_bf0fc2b7db273300e86f2a36ca9619dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-04 20:35:00</sys_updated_on>
+        <table>x_393226_erf_employee_reimbursements</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</application>
+        <file_path/>
+        <instance_id>3cce5ae0dbc577c03050ac44d49619c1</instance_id>
+        <instance_name>dev82960</instance_name>
+        <name>sys_script_client_bf0fc2b7db273300e86f2a36ca9619dc</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Manage Expense type entries&lt;/description&gt;&lt;field&gt;u_expense_type&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Manage Expense Type&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if(isLoading || newValue === ''){
+		return;
+	}
+	
+	var pairs = makePairs(control);
+// 	console.log(pairs);
+	
+	var total = 0;
+	for(var key in pairs){
+		if(pairs[key]){
+			var value = parseFloat(pairs[key]);
+			total += value;
+		}
+	}
+// 	console.log(total);
+	
+	g_form.setValue('u_amount', total.toString());
+	
+}
+
+function makePairs(control){
+	var expenceTypes = control.value.replace(/\$|"|{|}/g, '');
+	console.log(expenceTypes);
+	expenceTypes = expenceTypes.split(',');
+	
+	var obj = {};
+	for(var i = 0; i &lt; expenceTypes.length; i++){
+		var str = expenceTypes[i].split(':');
+		obj[str[0].trim()] = str[1].trim();
+	}
+	return obj;
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-04 16:30:30&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;bf0fc2b7db273300e86f2a36ca9619dc&lt;/sys_id&gt;&lt;sys_mod_count&gt;99&lt;/sys_mod_count&gt;&lt;sys_name&gt;Manage Expense Type&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Employee Reimbursement Form " source="x_393226_erf"&gt;c8e7a57fdb633300e86f2a36ca9619c0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Employee Reimbursement Form "&gt;c8e7a57fdb633300e86f2a36ca9619c0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_bf0fc2b7db273300e86f2a36ca9619dc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-04 20:35:00&lt;/sys_updated_on&gt;&lt;table&gt;x_393226_erf_employee_reimbursements&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>631479786</payload_hash>
+        <record_name>Manage Expense Type</record_name>
+        <reverted_from/>
+        <source>b717063fdbe33300e86f2a36ca961960</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-04 20:35:00</sys_created_on>
+        <sys_id>3e478b7bdbe73300e86f2a36ca96198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16cfdfcd34c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-04 20:35:00</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>b6478b7b7be7330033b507451fb9468d</update_guid>
+        <update_guid_history>b6478b7b7be7330033b507451fb9468d:631479786,1866c77b35e7330092fa186b54316e53:1263991364,cb260f3b68e73300594a14474071e310:-1701990972,20c5077b1ee73300973d1cfb0fffcb5a:-1615492847,41f48ff734e733001171582cbc6d0492:1144613753,8693cb7778e73300dbadb58e801c59e3:1638963433,9da207b738e73300d7c046dcc1f31635:610824692,1462cb770ee73300e01acc2e46d3f0dd:896495495,e2024f371fe7330088a01fb1529bd695:1523434688,ee71c37737e733007575180c7a358157:843403784,6b014ff3ebe733006a6fa4bb6c7b761c:188575264,7f40cfb358e73300067673334038ba77:1468138948,2920cfb332e733001fcc7ddb8d661410:-394930792,fcef36f383e73300483cc4c95fd95182:-326444971,e34fbab3bde73300c629077934bb299a:-224178159,8e1ff6b3a7e733005e2b8b5233eb7990:1468138948,e77ef2b3e2e73300f299dafd779f71a6:570446155,8eedb27368e7330020b5886bcc99e821:2132797863,9aad367b8ea73300cc9fab142842f35a:-68953231,1f0db2fffea73300057c3b2ff622f4a3:-931545817,4b7a723f81a733007ea1e93d3e38e5c1:1562982648,0699763b69a73300df81a546a705dd3e:-1788993421,63a3f6f7bda73300b276ef59ece38ab3:1721230265,5a83b67770a733007bccfc09e97fd466:2134148695,9c23fe779ba73300d707869a438f51c3:1764914219,23a2f2f3bda73300498e69163341e0d1:-1082207155,9452f237faa73300ad226bafd456e340:-460902779,dd02ba77f1a733006e803daf1b6ce536:-1314191333,44a1be7357a73300e966f269364d1baf:1764914219,6661b63739a7330048609508850a260e:-639027252,e10072b341a733007d693904a7a460e3:223135023,36bfaef3e0a73300ac54e92ae177a1a8:-736086979,612feab363a733000d201b5d6daea003:-59595333,e78eaab302a7330064d77ef678d7baff:662008651,5f4eaa73cea733000c8f7efe7b218aca:-969771351,3ded26b3c7a73300d62a7fc94d40f385:1499154859,6dbd62b35ea733009dd11c2337f2ba81:1448942825,276daa3320a73300d2fcc725e214cefe:-363213971,0d4daa73b0a73300a6d9cf9f6d990478:472192492,d3bce23341a733008cfd43c40f8e7808:-2108528706,926cea334da73300a83c78aadd774909:1045668452,6d3caa7fd1673300f5d4380bd8909652:-772996286,c6fbe6ffd8673300213241377848354f:1938311860,8fabaebfac673300b5c0af195df40088:1549641982,ae7baebf436733008166945329238484:447424751,b35b6eff9267330006e11da2508a30c2:550964615,31eaeabf7e67330085cf618a723f937a:-1610980785,dabae2fff567330028af725f1248c5e3:575200422,d45ae67f466733001aaad5bd76e0fab0:-632692896,991a6a7b45673300e2c062561e5a919c:720049741,b4296e7fa7673300ccff61fc6fdb4aaf:-192812365,90b8aefb206733000000552b2838783a:1605427250,4988aa3f1167330010f054b90a16c363:1798464791,ed48aa3f7f673300f2fa13b1b7fe7b5f:-663259353,50d76a7bcc673300b0c39da9aaf092cd:-2147202892,adf66efb3a673300aaeab5c201f742de:1223088638,a8446a7b8f6733007369afce02bb2293:1356397273,dec3ee7732673300e3880ca24a0c0875:-777173033,b99326f707673300828f81d6480feda0:1887797683,dd43e6f7d56733002ce89895bc9f1ff5:1173687895,0bd1e6f780673300e710a4e5fd84fc6b:-1117435370,83912a77fe6733008a9eacb557a09dfb:1356397273,a480ee777e67330032f7eb7b00dd7e6a:-46246763,07006e37a4673300d3f7dd66ed747cf7:-1727912730,fc9f5e37b36733002f23b838600d18a7:1356397273,664f5e37476733006b93ece35cd5c1a4:-1117435370,8a7e9237bd6733003d8a74e98f1db052:-1001590750,e8cdda335867330089a12f3d5824755a:767578430,30cc127366673300b085da824230e025:-1106764695,dd1b92735b6733006d72f1a2b0069074:1589049989,55ea96ffa4273300f84f7143517d0112:-190617623,db9a96fff127330065c5e01128481a0e:-591841495,fab992bf0227330029327461c86a86a2:-73617692,30695aff4027330016f1b5dedf266be1:1530995751,fa1912ff412733007340f2832133bf9a:-875101960,17b81e7f2027330015583180c89007c8:-887409401,fe871e7f29273300b4af4ef37a279bb2:887034913,bd471a7fbe2733000165dbb971405f44:1209723880,77071a7ffe2733006404d78d486d6f4e:1135854355,c2e69ebb39273300d63746db1c1bfcce:-134047965,bfb6927fed273300f6a5c47996f507e9:-539397863,4b86de3f692733000d787cd2185d14e6:912711321,b2461efbf527330053b5482ad5e0942f:535262865,b6255abbda273300ebbae53a0d2aac1c:-15575241,9bf41abb79273300277c2eb1158fe1ff:-872428460,2dc496fb5c27330025df5ac1f3ec3333:1978376,c494d2bbc52733001ac6733444a1525d:-135205228,8254da7b6927330064bb497c93999073:-15575241,fad3167b2e273300d413f7c0d5944c50:1926919466,2ee2da7bcc2733001f15b50b67943387:826444284,58e29a7b32273300277f223d63a431a7:1666346912,0862de3b46273300b756814de0b38495:-1181143171,1152927b182733004ef785f3b090e48b:-1311027433,a6f1d2b71e2733004dbdfcdcc2aa4e1c:-204936892,40f11e3b462733008652fa60d980879d:1830744814,b5615af7be273300e48457d64cd2ad96:-1158130036,50e09eb7522733008763ecb8dacd4046:-426436491,3d9092b70e273300522e2bed09a1baf4:1837952694,92601ef3d72733000db9f5cdd1902984:-426436491,1d5f4af3d42733002570df600c93a358:-1985246103</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-04 20:40:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>407aff41e3f84d009681ec86884153c1</sys_id>
+        <sys_metadata>bf0fc2b7db273300e86f2a36ca9619dc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Manage Expense Type</sys_name>
+        <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_parent display_value="Employee Reimbursements">bd98edffdb633300e86f2a36ca96194f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_scope_delete display_value="">dedd82609b484f3ca47a1eba6d019064</sys_scope_delete>
+        <sys_update_name>sys_script_client_bf0fc2b7db273300e86f2a36ca9619dc</sys_update_name>
+        <sys_update_version display_value="sys_script_client_bf0fc2b7db273300e86f2a36ca9619dc">3e478b7bdbe73300e86f2a36ca96198d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-04 20:40:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

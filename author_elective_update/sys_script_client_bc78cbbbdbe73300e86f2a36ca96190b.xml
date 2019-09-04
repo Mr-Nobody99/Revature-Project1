@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Manage Expense type entries</description>
+        <field>u_expense_type</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Manage Expense Type</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if(isLoading || newValue === ''){
+		return;
+	}
+	
+	var pairs = makePairs(control);
+	
+	var total = 0;
+	for(var key in pairs){
+		if(pairs[key]){
+			var value = parseFloat(pairs[key]);
+			total += value;
+		}
+	}
+	
+	g_form.setValue('u_amount', total.toString());
+	
+}
+
+function makePairs(control){
+	var expenceTypes = control.value.replace(/\$|"|{|}/g, '');
+	expenceTypes = expenceTypes.split(',');
+	
+	var obj = {};
+	for(var i = 0; i < expenceTypes.length; i++){
+		var str = expenceTypes[i].split(':');
+		obj[str[0].trim()] = str[1].trim();
+	}
+	return obj;
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-04 20:40:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bc78cbbbdbe73300e86f2a36ca96190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Manage Expense Type</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_update_name>sys_script_client_bc78cbbbdbe73300e86f2a36ca96190b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-04 20:40:04</sys_updated_on>
+        <table>x_393226_erf_employee_reimbursements</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</application>
+        <file_path/>
+        <instance_id>3cce5ae0dbc577c03050ac44d49619c1</instance_id>
+        <instance_name>dev82960</instance_name>
+        <name>sys_script_client_bc78cbbbdbe73300e86f2a36ca96190b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Manage Expense type entries&lt;/description&gt;&lt;field&gt;u_expense_type&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Manage Expense Type&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if(isLoading || newValue === ''){
+		return;
+	}
+	
+	var pairs = makePairs(control);
+	
+	var total = 0;
+	for(var key in pairs){
+		if(pairs[key]){
+			var value = parseFloat(pairs[key]);
+			total += value;
+		}
+	}
+	
+	g_form.setValue('u_amount', total.toString());
+	
+}
+
+function makePairs(control){
+	var expenceTypes = control.value.replace(/\$|"|{|}/g, '');
+	expenceTypes = expenceTypes.split(',');
+	
+	var obj = {};
+	for(var i = 0; i &lt; expenceTypes.length; i++){
+		var str = expenceTypes[i].split(':');
+		obj[str[0].trim()] = str[1].trim();
+	}
+	return obj;
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-04 20:40:04&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;bc78cbbbdbe73300e86f2a36ca96190b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Manage Expense Type&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Employee Reimbursement Form " source="x_393226_erf"&gt;c8e7a57fdb633300e86f2a36ca9619c0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Employee Reimbursement Form "&gt;c8e7a57fdb633300e86f2a36ca9619c0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_bc78cbbbdbe73300e86f2a36ca96190b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-04 20:40:04&lt;/sys_updated_on&gt;&lt;table&gt;x_393226_erf_employee_reimbursements&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>898833906</payload_hash>
+        <record_name>Manage Expense Type</record_name>
+        <reverted_from/>
+        <source>b717063fdbe33300e86f2a36ca961960</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-04 20:40:04</sys_created_on>
+        <sys_id>7c78cbbbdbe73300e86f2a36ca96190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16cfe0176d40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-04 20:40:04</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>b478cbbbc4e73300d1a9edc97214d40e</update_guid>
+        <update_guid_history>b478cbbbc4e73300d1a9edc97214d40e:898833906</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-04 20:47:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>4f91349c131844569acc1df4c8c8a891</sys_id>
+        <sys_metadata>bc78cbbbdbe73300e86f2a36ca96190b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Manage Expense Type</sys_name>
+        <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_parent display_value="Employee Reimbursements">bd98edffdb633300e86f2a36ca96194f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_scope_delete display_value="">dedd82609b484f3ca47a1eba6d019064</sys_scope_delete>
+        <sys_update_name>sys_script_client_bc78cbbbdbe73300e86f2a36ca96190b</sys_update_name>
+        <sys_update_version display_value="sys_script_client_bc78cbbbdbe73300e86f2a36ca96190b">7c78cbbbdbe73300e86f2a36ca96190e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-04 20:47:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

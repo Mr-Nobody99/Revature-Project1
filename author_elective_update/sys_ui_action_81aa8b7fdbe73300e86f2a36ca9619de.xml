@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name>Submit</action_name>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style>primary</form_style>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Submit</name>
+        <onclick/>
+        <order>100</order>
+        <script/>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-04 20:50:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>81aa8b7fdbe73300e86f2a36ca9619de</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Submit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_update_name>sys_ui_action_81aa8b7fdbe73300e86f2a36ca9619de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-04 20:53:38</sys_updated_on>
+        <table>x_393226_erf_employee_reimbursements</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</application>
+        <file_path/>
+        <instance_id>3cce5ae0dbc577c03050ac44d49619c1</instance_id>
+        <instance_name>dev82960</instance_name>
+        <name>sys_ui_action_81aa8b7fdbe73300e86f2a36ca9619de</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;Submit&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style&gt;primary&lt;/form_style&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;name&gt;Submit&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script/&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-04 20:50:45&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;81aa8b7fdbe73300e86f2a36ca9619de&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Submit&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Employee Reimbursement Form " source="x_393226_erf"&gt;c8e7a57fdb633300e86f2a36ca9619c0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Employee Reimbursement Form "&gt;c8e7a57fdb633300e86f2a36ca9619c0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_81aa8b7fdbe73300e86f2a36ca9619de&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-04 20:53:38&lt;/sys_updated_on&gt;&lt;table&gt;x_393226_erf_employee_reimbursements&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-937651501</payload_hash>
+        <record_name>Submit</record_name>
+        <reverted_from/>
+        <source>b717063fdbe33300e86f2a36ca961960</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-04 20:53:38</sys_created_on>
+        <sys_id>338b83bfdbe73300e86f2a36ca9619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16cfe0de3b30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-04 20:53:38</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>bb8b83bf3be73300149158bbfb55e4bb</update_guid>
+        <update_guid_history>bb8b83bf3be73300149158bbfb55e4bb:-937651501,d85b47bf4de73300643c1852ebe9ff3d:-1079434141,240b03bf3ae73300752aa2e4c29b2994:2036982116,11ea8f7f44e733006e22a0dfffbc9636:-1796247497</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-04 20:55:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>00f9a4141ecb4a0084a94b012cb62400</sys_id>
+        <sys_metadata>81aa8b7fdbe73300e86f2a36ca9619de</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit</sys_name>
+        <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_parent display_value="Employee Reimbursements">bd98edffdb633300e86f2a36ca96194f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_scope_delete display_value="">dedd82609b484f3ca47a1eba6d019064</sys_scope_delete>
+        <sys_update_name>sys_ui_action_81aa8b7fdbe73300e86f2a36ca9619de</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_81aa8b7fdbe73300e86f2a36ca9619de">338b83bfdbe73300e86f2a36ca9619bc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-04 20:55:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
