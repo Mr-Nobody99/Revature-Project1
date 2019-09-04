@@ -2,7 +2,9 @@
     <element extends="task" label="Employee Reimbursements" max_length="40" name="x_393226_erf_employee_reimbursements" type="collection">
         <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Reimbursement Amount" max_length="20" name="u_amount" type="price"/>
         <element attributes="encode_utf8=false" label="Employee" mandatory="true" max_length="32" name="u_employee" reference="sys_user" type="reference"/>
+        <element label="Expense Type" mandatory="true" max_length="4000" name="u_expense_type" type="simple_name_values"/>
         <element attributes="edge_encryption_enabled=true" label="Full Justification" mandatory="true" max_length="1000" name="u_full_justification" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="New List" max_length="1024" name="u_glide_list_1" reference="x_393226_erf_employee_reimbursements" type="glide_list"/>
         <element choice="3" default="1" label="Impact" mandatory="true" max_length="40" name="u_impact" type="integer">
             <choice>
                 <element inactive_on_update="false" label="1 - High" sequence="0" value="1"/>
@@ -21,6 +23,8 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Official Place of Visit" mandatory="true" max_length="120" name="u_place" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Short Justification" mandatory="true" max_length="150" name="u_short_justification" type="string"/>
+        <element label="New Name-Value Pairs" max_length="4000" name="u_simple_name_values_3" type="simple_name_values"/>
+        <element label="New Name-Value Pairs" max_length="4000" name="u_simple_name_values_4" type="simple_name_values"/>
         <element attributes="edge_encryption_enabled=true" label="Travel End Date" mandatory="true" max_length="40" name="u_travel_end" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="flight" label="Mode of Travel" mandatory="true" max_length="40" name="u_travel_mode" type="string">
             <choice>

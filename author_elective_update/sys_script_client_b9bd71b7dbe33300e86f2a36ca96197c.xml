@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Set the default text for the Expense Type value</description>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set Default Expense Type values</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	
+	alert(g_form.getReference('u_expense_type'));
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-04 15:21:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b9bd71b7dbe33300e86f2a36ca96197c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Set Default Expense Type values</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_update_name>sys_script_client_b9bd71b7dbe33300e86f2a36ca96197c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-04 15:30:22</sys_updated_on>
+        <table>x_393226_erf_employee_reimbursements</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</application>
+        <file_path/>
+        <instance_id>3cce5ae0dbc577c03050ac44d49619c1</instance_id>
+        <instance_name>dev82960</instance_name>
+        <name>sys_script_client_b9bd71b7dbe33300e86f2a36ca96197c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Set the default text for the Expense Type value&lt;/description&gt;&lt;field&gt;active&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Set Default Expense Type values&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+	
+	alert(g_form.getReference('u_expense_type'));
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-04 15:21:14&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b9bd71b7dbe33300e86f2a36ca96197c&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set Default Expense Type values&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Employee Reimbursement Form " source="x_393226_erf"&gt;c8e7a57fdb633300e86f2a36ca9619c0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Employee Reimbursement Form "&gt;c8e7a57fdb633300e86f2a36ca9619c0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_b9bd71b7dbe33300e86f2a36ca96197c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-04 15:30:22&lt;/sys_updated_on&gt;&lt;table&gt;x_393226_erf_employee_reimbursements&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1699693507</payload_hash>
+        <record_name>Set Default Expense Type values</record_name>
+        <reverted_from/>
+        <source>08583573dbe33300e86f2a36ca961947</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-04 15:30:22</sys_created_on>
+        <sys_id>5491c2f7dbe33300e86f2a36ca9619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16cfce5edb50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-04 15:30:22</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>dc91c2f783e33300a72d26a367cc72ea</update_guid>
+        <update_guid_history>dc91c2f783e33300a72d26a367cc72ea:1699693507,73514a3b38e33300a07dd553ab13fe7b:-557478750,e131063b71e333006df55fd64731b448:68588894,9b804af73fe3330085c52ff7cf8736fc:-728063903,f99f79f70ce33300a8843a52500ca504:-1448590986,667f39f74ee333009860d508cbd5effe:-425429721</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-04 15:31:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>5fafdf959b31490f9c430a7699923ef9</sys_id>
+        <sys_metadata>b9bd71b7dbe33300e86f2a36ca96197c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Default Expense Type values</sys_name>
+        <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_parent display_value="Employee Reimbursements">bd98edffdb633300e86f2a36ca96194f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_scope_delete display_value="">dedd82609b484f3ca47a1eba6d019064</sys_scope_delete>
+        <sys_update_name>sys_script_client_b9bd71b7dbe33300e86f2a36ca96197c</sys_update_name>
+        <sys_update_version display_value="sys_script_client_b9bd71b7dbe33300e86f2a36ca96197c">5491c2f7dbe33300e86f2a36ca9619eb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-04 15:31:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

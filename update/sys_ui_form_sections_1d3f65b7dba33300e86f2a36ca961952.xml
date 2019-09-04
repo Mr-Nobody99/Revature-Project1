@@ -28,6 +28,20 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-09-04 14:10:10</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-04 14:49:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c583573dbe33300e86f2a36ca961946</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_393226_erf_employee_reimbursements" name="x_393226_erf_employee_reimbursements" sys_domain="global" view="Default view">1d3f65b7dba33300e86f2a36ca961952</sys_ui_form>
+            <sys_ui_section caption="Extra" display_value="Extra" name="x_393226_erf_employee_reimbursements" sys_domain="global" view="Default view">4058f173dbe33300e86f2a36ca9619bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-04 14:49:56</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_393226_erf_employee_reimbursements</name>
             <roles/>
