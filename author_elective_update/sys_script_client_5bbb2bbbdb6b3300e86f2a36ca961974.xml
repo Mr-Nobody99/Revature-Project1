@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Prevent user from modifying the reimbursement amount value</description>
+        <field>u_amount</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Block Amount Change</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading) {
+        return;
+    }
+	
+	console.log('value = ' + g_form.getValue('u_amount'));
+	console.log('new = ' + newValue);
+	
+// 	alert('The Remibursement Amount is determined by the total of your listed expences do not attempt to change it manually');
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-04 23:18:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5bbb2bbbdb6b3300e86f2a36ca961974</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Block Amount Change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_update_name>sys_script_client_5bbb2bbbdb6b3300e86f2a36ca961974</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-05 00:04:29</sys_updated_on>
+        <table>x_393226_erf_employee_reimbursements</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</application>
+        <file_path/>
+        <instance_id>3cce5ae0dbc577c03050ac44d49619c1</instance_id>
+        <instance_name>dev82960</instance_name>
+        <name>sys_script_client_5bbb2bbbdb6b3300e86f2a36ca961974</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Prevent user from modifying the reimbursement amount value&lt;/description&gt;&lt;field&gt;u_amount&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Block Amount Change&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading) {
+        return;
+    }
+	
+	console.log('value = ' + g_form.getValue('u_amount'));
+	console.log('new = ' + newValue);
+	
+// 	alert('The Remibursement Amount is determined by the total of your listed expences do not attempt to change it manually');
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-04 23:18:15&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;5bbb2bbbdb6b3300e86f2a36ca961974&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;Block Amount Change&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Employee Reimbursement Form " source="x_393226_erf"&gt;c8e7a57fdb633300e86f2a36ca9619c0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Employee Reimbursement Form "&gt;c8e7a57fdb633300e86f2a36ca9619c0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_5bbb2bbbdb6b3300e86f2a36ca961974&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-05 00:04:29&lt;/sys_updated_on&gt;&lt;table&gt;x_393226_erf_employee_reimbursements&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2094177468</payload_hash>
+        <record_name>Block Amount Change</record_name>
+        <reverted_from/>
+        <source>dac2aff3db6b3300e86f2a36ca961978</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 00:04:29</sys_created_on>
+        <sys_id>57373f77dbab3300e86f2a36ca9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16cfebc9e920000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-05 00:04:29</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>df373f77a4ab3300ac61f0a74c9863f7</update_guid>
+        <update_guid_history>df373f77a4ab3300ac61f0a74c9863f7:-2094177468,46a6b377dfab33000a3659a1383eb8b9:-1338833487,c622fb73c3ab33001ce53fbc6f41a7bc:-736732825,36e13bbf896b33001f30e67a23b9a0da:-830515615,5801f33369ab3300ba35956eb3a85f1e:-1338833487,c7807fbffa6b3300e24b18c31ba35245:2043580731,f060fb3f7a6b33006be983913a9cc49a:1910498050,728e2b3fde6b3300a7b8536032ea3395:1862138091,ce8dab7ff76b3300d352c040fd68c330:640338077,b9ec637ffe6b3300309b3c3c67aa1566:-1943258210,06ace33f8b6b3300e0bf3cb9c9239f6c:-149748978</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 01:03:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>206f7723c98e47e786f0d05851f97ff1</sys_id>
+        <sys_metadata>5bbb2bbbdb6b3300e86f2a36ca961974</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Block Amount Change</sys_name>
+        <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_parent display_value="Employee Reimbursements">bd98edffdb633300e86f2a36ca96194f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_scope_delete display_value="">dedd82609b484f3ca47a1eba6d019064</sys_scope_delete>
+        <sys_update_name>sys_script_client_5bbb2bbbdb6b3300e86f2a36ca961974</sys_update_name>
+        <sys_update_version display_value="sys_script_client_5bbb2bbbdb6b3300e86f2a36ca961974">57373f77dbab3300e86f2a36ca9619f8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-05 01:03:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

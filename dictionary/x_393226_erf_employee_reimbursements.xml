@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="task" label="Employee Reimbursements" max_length="40" name="x_393226_erf_employee_reimbursements" type="collection">
-        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Reimbursement Amount" max_length="20" name="u_amount" type="price"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Reimbursement Amount" max_length="20" name="u_amount" read_only="true" type="price"/>
         <element attributes="encode_utf8=false" label="Employee" mandatory="true" max_length="32" name="u_employee" reference="sys_user" type="reference"/>
         <element label="Expense Type" mandatory="true" max_length="4000" name="u_expense_type" type="simple_name_values"/>
         <element attributes="edge_encryption_enabled=true" label="Full Justification" mandatory="true" max_length="1000" name="u_full_justification" type="string"/>

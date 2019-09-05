@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>When user submits a new record display the total number of records already present.</description>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Get Total </name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    var ga = new GlideAjax('ERF_Helper');
+    ga.addParam('sysparam_name', 'getCount');
+    ga.getXML(getResponse);
+}
+
+function getResponse(response) {
+    var answer = response.responseXML.documentElement.getAttribute("answer");
+    alert(answer);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 01:21:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4887c880dbfb3300e86f2a36ca9619a4</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Get Total </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_update_name>sys_script_client_4887c880dbfb3300e86f2a36ca9619a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-05 02:45:58</sys_updated_on>
+        <table>x_393226_erf_employee_reimbursements</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</application>
+        <file_path/>
+        <instance_id>3cce5ae0dbc577c03050ac44d49619c1</instance_id>
+        <instance_name>dev82960</instance_name>
+        <name>sys_script_client_4887c880dbfb3300e86f2a36ca9619a4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;When user submits a new record display the total number of records already present.&lt;/description&gt;&lt;field&gt;active&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Get Total &lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+    var ga = new GlideAjax('ERF_Helper');
+    ga.addParam('sysparam_name', 'getCount');
+    ga.getXML(getResponse);
+}
+
+function getResponse(response) {
+    var answer = response.responseXML.documentElement.getAttribute("answer");
+    alert(answer);
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-05 01:21:14&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;4887c880dbfb3300e86f2a36ca9619a4&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_name&gt;Get Total &lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Employee Reimbursement Form " source="x_393226_erf"&gt;c8e7a57fdb633300e86f2a36ca9619c0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Employee Reimbursement Form "&gt;c8e7a57fdb633300e86f2a36ca9619c0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_4887c880dbfb3300e86f2a36ca9619a4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-05 02:45:58&lt;/sys_updated_on&gt;&lt;table&gt;x_393226_erf_employee_reimbursements&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1034671475</payload_hash>
+        <record_name>Get Total </record_name>
+        <reverted_from/>
+        <source>dac2aff3db6b3300e86f2a36ca961978</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 02:45:58</sys_created_on>
+        <sys_id>f83cd4c4db3f3300e86f2a36ca961971</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16cff5073510000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-05 02:45:58</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>743cd4c46f3f3300baaea673759d1271</update_guid>
+        <update_guid_history>743cd4c46f3f3300baaea673759d1271:-1034671475,d33adcc0063f3300875b62f3931bf50e:1518415245,5bd75440713f33008b7670812adaa5ea:2044777155,99171480153f3300dba07fc0c25764b9:-998957936,f686d080a53f3300fbf058fdf4d9add2:-742419567,78561800b53f3300592cadd5c7d58b26:-1571321037,0e93108cc2fb3300e64f1a4e1f766116:1193331150,acc2d04cf4fb330077ace54f39eaf849:1836744249,15b19cc86ffb3300d65cbdd9f0b76a9a:106177585,5a21d00ca8fb330005f0a14d04a7922c:-1604636902,88019cc87efb33005fadbed4ef366596:1677771061,21e0988456fb3300ca4abe57cf942107:-1479381722,eddd488866fb3300d6086d0254223431:-1893231737,4dad848868fb3300df3c3f0a36bc7030:-1671929379,1a6d80881afb3300336ffef7f7b3e458:-1893231737,8a7b88c444fb330018d7f4f01cac76c3:1126132180,ebc8c84405fb330018fd570f371c91c3:-82976934</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 02:51:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0e950bacd2924901876519d9bad0fcb9</sys_id>
+        <sys_metadata>4887c880dbfb3300e86f2a36ca9619a4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Total </sys_name>
+        <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_parent display_value="Employee Reimbursements">bd98edffdb633300e86f2a36ca96194f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_scope_delete display_value="">dedd82609b484f3ca47a1eba6d019064</sys_scope_delete>
+        <sys_update_name>sys_script_client_4887c880dbfb3300e86f2a36ca9619a4</sys_update_name>
+        <sys_update_version display_value="sys_script_client_4887c880dbfb3300e86f2a36ca9619a4">f83cd4c4db3f3300e86f2a36ca961971</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-05 02:51:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_393226_erf.ERF_Helper</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Helper script include for ERF application</description>
+        <name>ERF_Helper</name>
+        <script><![CDATA[var ERF_Helper = Class.create();
+ERF_Helper.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getCount:function() {
+		return "hello";
+// 		alert('hello');
+//         var count = new GlideAggregate('x_393226_erf_employee_reimbursements');
+//         count.addAggregate('COUNT');
+//         count.addQuery();
+
+//         var total = 0;
+//         if (count.next()) {
+//             total = count.getAggregate('COUNT');
+//         }
+//         return total;
+    },
+	
+    type: 'ERF_Helper'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 01:39:21</sys_created_on>
+        <sys_id>038b4808dbfb3300e86f2a36ca9619a9</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>ERF_Helper</sys_name>
+        <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_update_name>sys_script_include_038b4808dbfb3300e86f2a36ca9619a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-05 02:48:08</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</application>
+        <file_path/>
+        <instance_id>3cce5ae0dbc577c03050ac44d49619c1</instance_id>
+        <instance_name>dev82960</instance_name>
+        <name>sys_script_include_038b4808dbfb3300e86f2a36ca9619a9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_393226_erf.ERF_Helper&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description&gt;Helper script include for ERF application&lt;/description&gt;&lt;name&gt;ERF_Helper&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var ERF_Helper = Class.create();
+ERF_Helper.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getCount:function() {
+		return "hello";
+// 		alert('hello');
+//         var count = new GlideAggregate('x_393226_erf_employee_reimbursements');
+//         count.addAggregate('COUNT');
+//         count.addQuery();
+
+//         var total = 0;
+//         if (count.next()) {
+//             total = count.getAggregate('COUNT');
+//         }
+//         return total;
+    },
+	
+    type: 'ERF_Helper'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-05 01:39:21&lt;/sys_created_on&gt;&lt;sys_id&gt;038b4808dbfb3300e86f2a36ca9619a9&lt;/sys_id&gt;&lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;&lt;sys_name&gt;ERF_Helper&lt;/sys_name&gt;&lt;sys_package display_value="Employee Reimbursement Form " source="x_393226_erf"&gt;c8e7a57fdb633300e86f2a36ca9619c0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Employee Reimbursement Form "&gt;c8e7a57fdb633300e86f2a36ca9619c0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_038b4808dbfb3300e86f2a36ca9619a9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-05 02:48:08&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-552125121</payload_hash>
+        <record_name>ERF_Helper</record_name>
+        <reverted_from/>
+        <source>dac2aff3db6b3300e86f2a36ca961978</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 02:48:08</sys_created_on>
+        <sys_id>20bc90c4db3f3300e86f2a36ca961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16cff5270790000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-05 02:48:08</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>a8bc90c4073f3300b17a065a6ec01e37</update_guid>
+        <update_guid_history>a8bc90c4073f3300b17a065a6ec01e37:-552125121,de9c50c4fd3f3300e66ee645f2a14cc6:1085173150,b1cb1c84c23f3300423ee6241368cf7b:-191519665,0a9b1c84b73f330003bbe3659e4ff2cf:1114881742,9c6bd884d83f33009d1d6dd384fa3b0c:404780817,f92bd4842f3f3300ba84e4523b28bdbe:-240470236,49dad0846b3f3300fcfc2114b50fbf0a:482835035,53ca9084b53f33003c905ecd1d9a3081:-176133089,b0ba1c44793f3300d68395c7fa9e70da:-1503560894,4e8a9044953f3300fd732fb494289e62:405380738,d8b99044543f330051ed987d88c6ad39:-235800144,f938dc80c83f33002762e468d145105e:-892607880,e2f758c0f53f3300c0f6c98159ed215b:126249784,6c6418cc7cfb3300110253a55e088f9d:-1313062077,fd5498cc02fb33005df47d48f4b545ff:-1107059616,aa73dc8c9efb330087fa951e534ad52f:-1116382082,73d0904cd9fb3300ae8ef16e0fe1ca27:613452667,ccfd888816fb33004401b7749d4bbec2:-1116382082,fcfc0c48e8fb33001df3bd87b570d452:-1161469513</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 02:51:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>759d8f5ab22848f8b206f7313f144010</sys_id>
+        <sys_metadata>038b4808dbfb3300e86f2a36ca9619a9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ERF_Helper</sys_name>
+        <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_scope_delete display_value="">dedd82609b484f3ca47a1eba6d019064</sys_scope_delete>
+        <sys_update_name>sys_script_include_038b4808dbfb3300e86f2a36ca9619a9</sys_update_name>
+        <sys_update_version display_value="sys_script_include_038b4808dbfb3300e86f2a36ca9619a9">20bc90c4db3f3300e86f2a36ca961938</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-05 02:51:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
