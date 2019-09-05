@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">e21cc4d4dbf73300e86f2a36ca961995</sp_column>
+        <sp_widget display_value="Report">e41aa2d29f0222008252baac757fcfce</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 20:27:29</sys_created_on>
+        <sys_id>9e2f001cdbf73300e86f2a36ca9619c2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_update_name>sp_instance_9e2f001cdbf73300e86f2a36ca9619c2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-05 20:27:44</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"report_id": {
+		"value": "fc9e4898dbf73300e86f2a36ca961979",
+		"displayValue": "Critical Requests"
+	},
+	"show_title": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=9e2f001cdbf73300e86f2a36ca9619c2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</application>
+        <file_path/>
+        <instance_id>3cce5ae0dbc577c03050ac44d49619c1</instance_id>
+        <instance_name>dev82960</instance_name>
+        <name>sp_instance_9e2f001cdbf73300e86f2a36ca9619c2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;e21cc4d4dbf73300e86f2a36ca961995&lt;/sp_column&gt;&lt;sp_widget display_value="Report"&gt;e41aa2d29f0222008252baac757fcfce&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-05 20:27:29&lt;/sys_created_on&gt;&lt;sys_id&gt;9e2f001cdbf73300e86f2a36ca9619c2&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Employee Reimbursement Form " source="x_393226_erf"&gt;c8e7a57fdb633300e86f2a36ca9619c0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Employee Reimbursement Form "&gt;c8e7a57fdb633300e86f2a36ca9619c0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_9e2f001cdbf73300e86f2a36ca9619c2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-05 20:27:44&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"report_id": {
+		"value": "fc9e4898dbf73300e86f2a36ca961979",
+		"displayValue": "Critical Requests"
+	},
+	"show_title": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=9e2f001cdbf73300e86f2a36ca9619c2"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-395910120</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>2295d680db333300e86f2a36ca9619bc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 20:27:44</sys_created_on>
+        <sys_id>4e3f401cdbf73300e86f2a36ca961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d031c87780000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-05 20:27:44</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>c63f401c0cf73300990380b0d42a6278</update_guid>
+        <update_guid_history>c63f401c0cf73300990380b0d42a6278:-395910120,562f001c48f733001ea16afc349064c4:773782457</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">5800d41cdbf73300e86f2a36ca96196f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 20:31:10</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>1b770b20f5424058b519f7632298db24</sys_id>
+        <sys_metadata>9e2f001cdbf73300e86f2a36ca9619c2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_scope_delete display_value="">dedd82609b484f3ca47a1eba6d019064</sys_scope_delete>
+        <sys_update_name>sp_instance_9e2f001cdbf73300e86f2a36ca9619c2</sys_update_name>
+        <sys_update_version display_value="sp_instance_9e2f001cdbf73300e86f2a36ca9619c2">4e3f401cdbf73300e86f2a36ca961978</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-05 20:31:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

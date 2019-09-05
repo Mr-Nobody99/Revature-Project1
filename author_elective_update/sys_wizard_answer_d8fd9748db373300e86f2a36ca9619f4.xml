@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>ERF_Lookup</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>ERF_Lookup</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Application File" name="Application File">421f34a2db233300e86f2a36ca9619ac</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 16:52:26</sys_created_on>
+        <sys_id>d8fd9748db373300e86f2a36ca9619f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ERF_Lookup</sys_name>
+        <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_update_name>sys_wizard_answer_d8fd9748db373300e86f2a36ca9619f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-05 16:52:26</sys_updated_on>
+        <table/>
+        <target_url>x_393226_erf_erf_lookup.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</application>
+        <file_path/>
+        <instance_id>3cce5ae0dbc577c03050ac44d49619c1</instance_id>
+        <instance_name>dev82960</instance_name>
+        <name>sys_wizard_answer_d8fd9748db373300e86f2a36ca9619f4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>ERF_Lookup</answer><button_label/><dependent_value/><element/><name>ERF_Lookup</name><next_question/><order>100</order><payload_name/><question display_value="Application File" name="Application File">421f34a2db233300e86f2a36ca9619ac</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-05 16:52:26</sys_created_on><sys_id>d8fd9748db373300e86f2a36ca9619f4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ERF_Lookup</sys_name><sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package><sys_policy/><sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope><sys_update_name>sys_wizard_answer_d8fd9748db373300e86f2a36ca9619f4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-05 16:52:26</sys_updated_on><table/><target_url>x_393226_erf_erf_lookup.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>-1341763369</payload_hash>
+        <record_name>ERF_Lookup</record_name>
+        <reverted_from/>
+        <source>2abe7422db233300e86f2a36ca961924</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2019-08-31 13:25:55</sys_created_on>
+        <sys_id>be2fdb88db373300e86f2a36ca9619bc</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>16ce7da8ab80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Answer</type>
+        <update_guid>7e2fdb882e373300b91e7fc5d7cff2bc</update_guid>
+        <update_guid_history>7e2fdb882e373300b91e7fc5d7cff2bc:-1341763369</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 16:57:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>97c0eb4eb0dc49689c069e9673d23f10</sys_id>
+        <sys_metadata>d8fd9748db373300e86f2a36ca9619f4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ERF_Lookup</sys_name>
+        <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_parent display_value="Application File">421f34a2db233300e86f2a36ca9619ac</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_scope_delete display_value="">dedd82609b484f3ca47a1eba6d019064</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_d8fd9748db373300e86f2a36ca9619f4</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_d8fd9748db373300e86f2a36ca9619f4">be2fdb88db373300e86f2a36ca9619bc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-05 16:57:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

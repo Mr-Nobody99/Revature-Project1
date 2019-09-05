@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="content_type">
+    <content_type action="DELETE">
+        <content_site display_value="ERF_Overview">051f7bc8dbb73300e86f2a36ca96192b</content_site>
+        <detail><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+</j:jelly>]]></detail>
+        <detail_page/>
+        <gauge_page/>
+        <media_type/>
+        <summary><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+</j:jelly>]]></summary>
+        <sys_class_name>content_type</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 19:21:59</sys_created_on>
+        <sys_id>d910c81cdbb73300e86f2a36ca961968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_393226_erf_employee_reimbursements</sys_name>
+        <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_update_name>content_type_d910c81cdbb73300e86f2a36ca961968</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-05 19:21:59</sys_updated_on>
+        <two_phase>false</two_phase>
+        <type>x_393226_erf_employee_reimbursements</type>
+    </content_type>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</application>
+        <file_path/>
+        <instance_id>3cce5ae0dbc577c03050ac44d49619c1</instance_id>
+        <instance_name>dev82960</instance_name>
+        <name>content_type_d910c81cdbb73300e86f2a36ca961968</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="content_type"&gt;&lt;content_type action="INSERT_OR_UPDATE"&gt;&lt;content_site display_value="ERF_Overview"&gt;051f7bc8dbb73300e86f2a36ca96192b&lt;/content_site&gt;&lt;detail&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+
+&lt;/j:jelly&gt;]]&gt;&lt;/detail&gt;&lt;detail_page/&gt;&lt;gauge_page/&gt;&lt;media_type/&gt;&lt;summary&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+
+&lt;/j:jelly&gt;]]&gt;&lt;/summary&gt;&lt;sys_class_name&gt;content_type&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-05 19:21:59&lt;/sys_created_on&gt;&lt;sys_id&gt;d910c81cdbb73300e86f2a36ca961968&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_393226_erf_employee_reimbursements&lt;/sys_name&gt;&lt;sys_package display_value="Employee Reimbursement Form " source="x_393226_erf"&gt;c8e7a57fdb633300e86f2a36ca9619c0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Employee Reimbursement Form "&gt;c8e7a57fdb633300e86f2a36ca9619c0&lt;/sys_scope&gt;&lt;sys_update_name&gt;content_type_d910c81cdbb73300e86f2a36ca961968&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-05 19:21:59&lt;/sys_updated_on&gt;&lt;two_phase&gt;false&lt;/two_phase&gt;&lt;type&gt;x_393226_erf_employee_reimbursements&lt;/type&gt;&lt;/content_type&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2050225472</payload_hash>
+        <record_name>x_393226_erf_employee_reimbursements</record_name>
+        <reverted_from/>
+        <source>2295d680db333300e86f2a36ca9619bc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 19:21:59</sys_created_on>
+        <sys_id>3620441cdbb73300e86f2a36ca96195f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d02e056120000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-05 19:21:59</sys_updated_on>
+        <type>Content Type</type>
+        <update_guid>7e20441cc3b73300a171ef6883dbb75e</update_guid>
+        <update_guid_history>7e20441cc3b73300a171ef6883dbb75e:-2050225472</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_393226_erf_employee_reimbursements">1d408c1cdbb73300e86f2a36ca961952</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 19:22:25</sys_created_on>
+        <sys_db_object display_value="" name="content_type">content_type</sys_db_object>
+        <sys_id>0a03e70c60ab477e81f4e884ac3fb1b9</sys_id>
+        <sys_metadata>d910c81cdbb73300e86f2a36ca961968</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_393226_erf_employee_reimbursements</sys_name>
+        <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_scope_delete display_value="">dedd82609b484f3ca47a1eba6d019064</sys_scope_delete>
+        <sys_update_name>content_type_d910c81cdbb73300e86f2a36ca961968</sys_update_name>
+        <sys_update_version display_value="content_type_d910c81cdbb73300e86f2a36ca961968">3620441cdbb73300e86f2a36ca96195f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-05 19:22:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

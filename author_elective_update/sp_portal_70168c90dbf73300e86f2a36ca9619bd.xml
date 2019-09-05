@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="DELETE">
+        <css_variables/>
+        <default>false</default>
+        <homepage/>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page/>
+        <logo/>
+        <notfound_page/>
+        <quick_start_config/>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu/>
+        <sqanda_knowledge_base/>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 19:48:32</sys_created_on>
+        <sys_id>70168c90dbf73300e86f2a36ca9619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ERF_ServicePortal</sys_name>
+        <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_update_name>sp_portal_70168c90dbf73300e86f2a36ca9619bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-05 19:48:32</sys_updated_on>
+        <theme/>
+        <title>ERF_ServicePortal</title>
+        <ts_index_group/>
+        <url_suffix>ERF-portal</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="delete_multiple" query="documentkey=70168c90dbf73300e86f2a36ca9619bd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</application>
+        <file_path/>
+        <instance_id>3cce5ae0dbc577c03050ac44d49619c1</instance_id>
+        <instance_name>dev82960</instance_name>
+        <name>sp_portal_70168c90dbf73300e86f2a36ca9619bd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal"><sp_portal action="INSERT_OR_UPDATE"><css_variables/><default>false</default><homepage/><icon/><kb_knowledge_base/><kb_knowledge_page/><login_page/><logo/><notfound_page/><quick_start_config/><sc_catalog/><sc_catalog_page/><sc_category_page/><sp_chat_queue/><sp_rectangle_menu/><sqanda_knowledge_base/><sys_class_name>sp_portal</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-05 19:48:32</sys_created_on><sys_id>70168c90dbf73300e86f2a36ca9619bd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ERF_ServicePortal</sys_name><sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package><sys_policy/><sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope><sys_update_name>sp_portal_70168c90dbf73300e86f2a36ca9619bd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-05 19:48:32</sys_updated_on><theme/><title>ERF_ServicePortal</title><ts_index_group/><url_suffix>ERF-portal</url_suffix></sp_portal><sys_translated_text action="delete_multiple" query="documentkey=70168c90dbf73300e86f2a36ca9619bd"/></record_update>]]></payload>
+        <payload_hash>-207485340</payload_hash>
+        <record_name>ERF_ServicePortal</record_name>
+        <reverted_from/>
+        <source>2295d680db333300e86f2a36ca9619bc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 19:48:32</sys_created_on>
+        <sys_id>bb36c890dbf73300e86f2a36ca9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d02f8a3e20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-05 19:48:32</sys_updated_on>
+        <type>Service Portal</type>
+        <update_guid>f336c8901bf7330049e3d80ed5d4d0ed</update_guid>
+        <update_guid_history>f336c8901bf7330049e3d80ed5d4d0ed:-207485340</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ERF_ServicePortal">a4e648d0dbf73300e86f2a36ca961925</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 19:51:19</sys_created_on>
+        <sys_db_object display_value="" name="sp_portal">sp_portal</sys_db_object>
+        <sys_id>00e14ceae9294a508001b3175bdcc900</sys_id>
+        <sys_metadata>70168c90dbf73300e86f2a36ca9619bd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ERF_ServicePortal</sys_name>
+        <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_scope_delete display_value="">dedd82609b484f3ca47a1eba6d019064</sys_scope_delete>
+        <sys_update_name>sp_portal_70168c90dbf73300e86f2a36ca9619bd</sys_update_name>
+        <sys_update_version display_value="sp_portal_70168c90dbf73300e86f2a36ca9619bd">bb36c890dbf73300e86f2a36ca9619ed</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-05 19:51:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
