@@ -18,19 +18,28 @@
     var total = 0;
     var max = 2500.00;
 	
+	//Create object of name-value pairs.
 	var nvPairs = makePairs(control);
 	
+	//If at least 1 name has been entered
     if (Object.keys(nvPairs).length > 0) {
+		
+		//Iterate over all name-value pairs
         for (var key in nvPairs) {
+			
+			//If name actually has a value
             if (nvPairs[key]) {
                 var value = parseFloat(nvPairs[key]);
                 var sum = total + value;
-                if (sum > max) {
-                    alert('The total amount of your expences exceeds the maximum amount of $2,500.00, the reimbursement amount will be set to the maximum amount allowed rather than the actual sum of $' + sum);
+                
+				//Check if the maximum has been exceded.
+				if (sum > max) {
+                    alert('The total amount of expences exceeds the $2,500.00 maximum.\nThe reimbursement amount will be set to the maximum allowed\nrather than the actual sum of $' + sum);
                 }
-                total = sum > max ? max : sum;
+                total = sum > max ? max : sum;//Assign total.
             }
         }
+		//Set the Reimbursement Amount field to the new total.
 		g_form.setValue('u_amount', 'USD;'+ total.toString(),'$' + total.toString());
     }
 	else{
@@ -39,12 +48,18 @@
 }
 
 function makePairs(control) {
+	//Remove un-necessary characters, leaving a string of "name:value,name1:value1,..."
     var nvList = control.value.replace(/\$|"|{|}/g, '');
+	
+	//Split string at commas, creating array ["name:value","name1:value1",...].
     nvList = nvList.split(',');
 
     var obj = {};
     for (var i = 0; i < nvList.length; i++) {
+		//Create individual pair.
         var nvPair = nvList[i].split(':');
+		
+		//Assign name as obj key = value.
         obj[nvPair[0].trim()] = nvPair[1].trim();
     }
     return obj;
@@ -55,7 +70,7 @@ function makePairs(control) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>563a077fdbe73300e86f2a36ca961923</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Manage Expense Type</sys_name>
         <sys_overrides/>
         <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
@@ -63,7 +78,7 @@ function makePairs(control) {
         <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
         <sys_update_name>sys_script_client_563a077fdbe73300e86f2a36ca961923</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-05 01:10:09</sys_updated_on>
+        <sys_updated_on>2019-09-05 15:32:35</sys_updated_on>
         <table>x_393226_erf_employee_reimbursements</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
