@@ -1,96 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="u_travel_mode" table="x_393226_erf_employee_reimbursements" version="3">
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_travel_mode</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Flight</label>
-            <language>en</language>
-            <name>x_393226_erf_employee_reimbursements</name>
-            <sequence>0</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-04 14:10:14</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>2a3fa5b7dba33300e86f2a36ca9619e9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-04 14:10:14</sys_updated_on>
-            <value>flight</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_travel_mode</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Train</label>
-            <language>en</language>
-            <name>x_393226_erf_employee_reimbursements</name>
-            <sequence>1</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-04 14:10:14</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>a63fa5b7dba33300e86f2a36ca9619eb</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-04 14:10:14</sys_updated_on>
-            <value>train</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_travel_mode</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Bus</label>
-            <language>en</language>
-            <name>x_393226_erf_employee_reimbursements</name>
-            <sequence>2</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-04 14:10:14</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>623fa5b7dba33300e86f2a36ca9619ed</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-04 14:10:14</sys_updated_on>
-            <value>bus</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_travel_mode</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Other</label>
-            <language>en</language>
-            <name>x_393226_erf_employee_reimbursements</name>
-            <sequence>3</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-04 14:10:14</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>aa3fe5b7dba33300e86f2a36ca961907</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-04 14:10:14</sys_updated_on>
-            <value>other</value>
-        </sys_choice>
-        <sys_choice_set action="INSERT_OR_UPDATE">
+    <sys_choice action="DELETE" field="u_travel_mode" table="x_393226_erf_employee_reimbursements" version="3">
+        <sys_choice_set action="DELETE">
             <element>u_travel_mode</element>
             <name>x_393226_erf_employee_reimbursements</name>
-            <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-04 14:10:14</sys_created_on>
-            <sys_id>623fa5b7dba33300e86f2a36ca9619ea</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>u_travel_mode</sys_name>
-            <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+            <sys_class_name/>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_id/>
+            <sys_mod_count/>
+            <sys_name/>
+            <sys_package/>
             <sys_policy/>
-            <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
-            <sys_update_name>sys_choice_x_393226_erf_employee_reimbursements_u_travel_mode</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-04 14:10:14</sys_updated_on>
+            <sys_scope/>
+            <sys_update_name/>
+            <sys_updated_by/>
+            <sys_updated_on>2019-09-05 11:36:06</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application/>
+        <file_path/>
+        <instance_id>3cce5ae0dbc577c03050ac44d49619c1</instance_id>
+        <instance_name>dev82960</instance_name>
+        <name>sys_choice_x_393226_erf_employee_reimbursements_u_travel_mode</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="DELETE" field="u_travel_mode" table="x_393226_erf_employee_reimbursements" version="3"><sys_choice_set action="DELETE"><element>u_travel_mode</element><name>x_393226_erf_employee_reimbursements</name><sys_class_name/><sys_created_by/><sys_created_on/><sys_id/><sys_mod_count/><sys_name/><sys_package/><sys_policy/><sys_scope/><sys_update_name/><sys_updated_by/><sys_updated_on>2019-09-05 11:36:06</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-1619434048</payload_hash>
+        <record_name>x_393226_erf_employee_reimbursements.u_travel_mode</record_name>
+        <reverted_from/>
+        <source>dac2aff3db6b3300e86f2a36ca961978</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 11:36:06</sys_created_on>
+        <sys_id>1e859280db333300e86f2a36ca9619c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d0135ccf60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-05 11:36:06</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>96859280583333001493ffa63a7b51c4</update_guid>
+        <update_guid_history>96859280583333001493ffa63a7b51c4:-1619434048,52859280013333000533fd56decfaac1:-313990161,de8592809d3333001bd06c5f6fe54bbd:-1703462404,5e8592803c333300b7ce4dcc3b99bdba:670076558,623fe5b701a33300accf133ec4a82b0a:988418063</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 11:36:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>e4955680db333300e86f2a36ca96192c</sys_id>
+        <sys_metadata>e4955680db333300e86f2a36ca96192c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_travel_mode</sys_name>
+        <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_scope_delete display_value="">dedd82609b484f3ca47a1eba6d019064</sys_scope_delete>
+        <sys_update_name>sys_choice_x_393226_erf_employee_reimbursements_u_travel_mode</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_393226_erf_employee_reimbursements_u_travel_mode">1e859280db333300e86f2a36ca9619c4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-05 11:36:20</sys_updated_on>
+    </sys_metadata_delete>
 </record_update>

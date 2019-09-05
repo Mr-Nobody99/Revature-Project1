@@ -1,77 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="u_payment_method" table="x_393226_erf_employee_reimbursements" version="3">
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_payment_method</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Cash</label>
-            <language>en</language>
-            <name>x_393226_erf_employee_reimbursements</name>
-            <sequence>0</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-04 14:10:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>6e3fe5b7dba33300e86f2a36ca961940</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-04 14:10:15</sys_updated_on>
-            <value>cash</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_payment_method</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Credit Card</label>
-            <language>en</language>
-            <name>x_393226_erf_employee_reimbursements</name>
-            <sequence>1</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-04 14:10:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>ea3fe5b7dba33300e86f2a36ca961942</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-04 14:10:15</sys_updated_on>
-            <value>credit</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_payment_method</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Other</label>
-            <language>en</language>
-            <name>x_393226_erf_employee_reimbursements</name>
-            <sequence>2</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-04 14:10:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>a63fe5b7dba33300e86f2a36ca961944</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-04 14:10:15</sys_updated_on>
-            <value>other</value>
-        </sys_choice>
-        <sys_choice_set action="INSERT_OR_UPDATE">
+    <sys_choice action="DELETE" field="u_payment_method" table="x_393226_erf_employee_reimbursements" version="3">
+        <sys_choice_set action="DELETE">
             <element>u_payment_method</element>
             <name>x_393226_erf_employee_reimbursements</name>
-            <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-04 14:10:15</sys_created_on>
-            <sys_id>a63fe5b7dba33300e86f2a36ca961941</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>u_payment_method</sys_name>
-            <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+            <sys_class_name/>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_id/>
+            <sys_mod_count/>
+            <sys_name/>
+            <sys_package/>
             <sys_policy/>
-            <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
-            <sys_update_name>sys_choice_x_393226_erf_employee_reimbursements_u_payment_method</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-04 14:10:15</sys_updated_on>
+            <sys_scope/>
+            <sys_update_name/>
+            <sys_updated_by/>
+            <sys_updated_on>2019-09-05 11:36:05</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application/>
+        <file_path/>
+        <instance_id>3cce5ae0dbc577c03050ac44d49619c1</instance_id>
+        <instance_name>dev82960</instance_name>
+        <name>sys_choice_x_393226_erf_employee_reimbursements_u_payment_method</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="DELETE" field="u_payment_method" table="x_393226_erf_employee_reimbursements" version="3"><sys_choice_set action="DELETE"><element>u_payment_method</element><name>x_393226_erf_employee_reimbursements</name><sys_class_name/><sys_created_by/><sys_created_on/><sys_id/><sys_mod_count/><sys_name/><sys_package/><sys_policy/><sys_scope/><sys_update_name/><sys_updated_by/><sys_updated_on>2019-09-05 11:36:05</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>1781152044</payload_hash>
+        <record_name>x_393226_erf_employee_reimbursements.u_payment_method</record_name>
+        <reverted_from/>
+        <source>dac2aff3db6b3300e86f2a36ca961978</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 11:36:05</sys_created_on>
+        <sys_id>52859280db333300e86f2a36ca9619b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d0135cc580000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-05 11:36:05</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>da8592807a3333008b4522e3a1b316b7</update_guid>
+        <update_guid_history>da8592807a3333008b4522e3a1b316b7:1781152044,9685928013333300eed2b5023bdeabb4:2081221986,168592809c3333000122aa8ad013e2b1:1079375440,6e3fe5b7eaa3330009392a48b8c67c46:-112401841</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 11:36:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>68955680db333300e86f2a36ca96192b</sys_id>
+        <sys_metadata>68955680db333300e86f2a36ca96192b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_payment_method</sys_name>
+        <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_scope_delete display_value="">dedd82609b484f3ca47a1eba6d019064</sys_scope_delete>
+        <sys_update_name>sys_choice_x_393226_erf_employee_reimbursements_u_payment_method</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_393226_erf_employee_reimbursements_u_payment_method">52859280db333300e86f2a36ca9619b8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-05 11:36:20</sys_updated_on>
+    </sys_metadata_delete>
 </record_update>

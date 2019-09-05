@@ -1,77 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="u_impact" table="x_393226_erf_employee_reimbursements" version="3">
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_impact</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>1 - High</label>
-            <language>en</language>
-            <name>x_393226_erf_employee_reimbursements</name>
-            <sequence>0</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-04 14:10:13</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>123fa5b7dba33300e86f2a36ca96198f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-04 14:10:13</sys_updated_on>
-            <value>1</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_impact</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>2 - Medium</label>
-            <language>en</language>
-            <name>x_393226_erf_employee_reimbursements</name>
-            <sequence>1</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-04 14:10:13</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>923fa5b7dba33300e86f2a36ca961991</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-04 14:10:13</sys_updated_on>
-            <value>2</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_impact</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>3 - Low</label>
-            <language>en</language>
-            <name>x_393226_erf_employee_reimbursements</name>
-            <sequence>2</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-04 14:10:13</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>5e3fa5b7dba33300e86f2a36ca961992</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-04 14:10:13</sys_updated_on>
-            <value>3</value>
-        </sys_choice>
-        <sys_choice_set action="INSERT_OR_UPDATE">
+    <sys_choice action="DELETE" field="u_impact" table="x_393226_erf_employee_reimbursements" version="3">
+        <sys_choice_set action="DELETE">
             <element>u_impact</element>
             <name>x_393226_erf_employee_reimbursements</name>
-            <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-04 14:10:13</sys_created_on>
-            <sys_id>9a3fa5b7dba33300e86f2a36ca96198f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>u_impact</sys_name>
-            <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+            <sys_class_name/>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_id/>
+            <sys_mod_count/>
+            <sys_name/>
+            <sys_package/>
             <sys_policy/>
-            <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
-            <sys_update_name>sys_choice_x_393226_erf_employee_reimbursements_u_impact</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-04 14:10:13</sys_updated_on>
+            <sys_scope/>
+            <sys_update_name/>
+            <sys_updated_by/>
+            <sys_updated_on>2019-09-05 11:36:05</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application/>
+        <file_path/>
+        <instance_id>3cce5ae0dbc577c03050ac44d49619c1</instance_id>
+        <instance_name>dev82960</instance_name>
+        <name>sys_choice_x_393226_erf_employee_reimbursements_u_impact</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="DELETE" field="u_impact" table="x_393226_erf_employee_reimbursements" version="3"><sys_choice_set action="DELETE"><element>u_impact</element><name>x_393226_erf_employee_reimbursements</name><sys_class_name/><sys_created_by/><sys_created_on/><sys_id/><sys_mod_count/><sys_name/><sys_package/><sys_policy/><sys_scope/><sys_update_name/><sys_updated_by/><sys_updated_on>2019-09-05 11:36:05</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-609689276</payload_hash>
+        <record_name>x_393226_erf_employee_reimbursements.u_impact</record_name>
+        <reverted_from/>
+        <source>dac2aff3db6b3300e86f2a36ca961978</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 11:36:05</sys_created_on>
+        <sys_id>1a859280db333300e86f2a36ca9619ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d0135cbf80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-05 11:36:05</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>92859280f23333008c1c7e9dc07aa0ae</update_guid>
+        <update_guid_history>92859280f23333008c1c7e9dc07aa0ae:-609689276,1a8592804c3333007caeb857f05d57aa:378317137,968592801c333300f3bb33bd739d6ea7:948501659,963fa5b7d9a3330096b6767ffd4d2795:-2004392031</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 11:36:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>a8955680db333300e86f2a36ca96192a</sys_id>
+        <sys_metadata>a8955680db333300e86f2a36ca96192a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_impact</sys_name>
+        <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_scope_delete display_value="">dedd82609b484f3ca47a1eba6d019064</sys_scope_delete>
+        <sys_update_name>sys_choice_x_393226_erf_employee_reimbursements_u_impact</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_393226_erf_employee_reimbursements_u_impact">1a859280db333300e86f2a36ca9619ae</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-05 11:36:19</sys_updated_on>
+    </sys_metadata_delete>
 </record_update>
