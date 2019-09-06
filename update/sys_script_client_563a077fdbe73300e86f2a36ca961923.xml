@@ -15,54 +15,70 @@
         return;
     }
 
+	
+	var newObj = JSON.parse(newValue);
+	for(var key in newObj){
+		var num = newObj[key];
+		console.log(num);
+	}
+	var keys = Object.keys(newObj);
     var total = 0;
     var max = 2500.00;
-	
-	//Create object of name-value pairs.
-	var nvPairs = makePairs(control);
-	
-	//If at least 1 name has been entered
-    if (Object.keys(nvPairs).length > 0) {
-		
-		//Iterate over all name-value pairs
-        for (var key in nvPairs) {
-			
-			//If name actually has a value
-            if (nvPairs[key]) {
-                var value = parseFloat(nvPairs[key]);
-                var sum = total + value;
-                
-				//Check if the maximum has been exceded.
-				if (sum > max) {
-                    alert('The total amount of expences exceeds the $2,500.00 maximum.\nThe reimbursement amount will be set to the maximum allowed\nrather than the actual sum of $' + sum);
+
+    //Create object of name-value pairs.
+    var nvPairs = makePairs(control);
+    var keys = Object.keys(nvPairs);
+
+    if (keys.length > 0) { //If at least 1 name has been entered
+        if (doVerify(nvPairs, keys)) { // Check if value entered is valid
+            for (var key in nvPairs) {
+                if (nvPairs[key]) { // Check name actually has a value
+
+                    var value = parseFloat(nvPairs[key]);
+                    var sum = total + value;
+
+                    if (sum > max) { //Alert if the maximum has been exceded.
+                        alert('The total amount of expences exceeds the $2,500.00 maximum.\nThe reimbursement amount will be set to the maximum allowed\nrather than the actual sum of $' + sum);
+                    }
+
+                    total = sum > max ? max : sum; //Assign total.                					
                 }
-                total = sum > max ? max : sum;//Assign total.
             }
+            g_form.setValue('u_amount', 'USD;' + total.toString(), '$' + total.toString());
         }
-		//Set the Reimbursement Amount field to the new total.
-		g_form.setValue('u_amount', 'USD;'+ total.toString(),'$' + total.toString());
     }
-	else{
-		g_form.setValue('u_amount', 'USD;0.00','$0');
-	}
 }
 
+//Converts string to object of key value pairs.
 function makePairs(control) {
-	//Remove un-necessary characters, leaving a string of "name:value,name1:value1,..."
-    var nvList = control.value.replace(/\$|"|{|}/g, '');
-	
-	//Split string at commas, creating array ["name:value","name1:value1",...].
-    nvList = nvList.split(',');
+    var nvList = control.value.replace(/\$|"|{|}/g, ''); //Remove un-necessary characters, leaving a string of "name:value,name1:value1,..."
+    nvList = nvList.split(','); //Split string at commas, creating array ["name:value","name1:value1",...]
 
     var obj = {};
     for (var i = 0; i < nvList.length; i++) {
-		//Create individual pair.
-        var nvPair = nvList[i].split(':');
-		
-		//Assign name as obj key = value.
-        obj[nvPair[0].trim()] = nvPair[1].trim();
+        var nvPair = nvList[i].split(':'); //Create individual pair.
+        obj[nvPair[0].trim()] = nvPair[1].trim(); //Assign name as obj key = value.
     }
     return obj;
+}
+
+//Verifies that value entered is a number.
+function doVerify(nvPairs, keys) {
+    if (isNaN(nvPairs[keys[keys.length - 1]])) { //Check if most recent value entered is NaN.
+
+        alert('Invalid Value!\nValue must be number.');
+
+        nvPairs[keys[keys.length - 1]] = ''; //Set the invalid value to empty string.
+        var str = JSON.stringify(nvPairs); //Convert object to string.
+        g_form.setValue('u_expense_type', str); //Reset value to the new string.
+
+        g_form.flash('u_expense_type', '#ff0000', 0);
+
+        return false; //valid = false
+
+    } else {
+        return true; //Valid = true
+    }
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -70,7 +86,7 @@ function makePairs(control) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>563a077fdbe73300e86f2a36ca961923</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>70</sys_mod_count>
         <sys_name>Manage Expense Type</sys_name>
         <sys_overrides/>
         <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
@@ -78,7 +94,7 @@ function makePairs(control) {
         <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
         <sys_update_name>sys_script_client_563a077fdbe73300e86f2a36ca961923</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-05 15:32:35</sys_updated_on>
+        <sys_updated_on>2019-09-06 21:01:28</sys_updated_on>
         <table>x_393226_erf_employee_reimbursements</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

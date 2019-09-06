@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_393226_erf.erf_priority_lookup_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>erf_priority_lookup_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 17:00:50</sys_created_on>
+        <sys_id>53df57c8db373300e86f2a36ca9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_393226_erf.erf_priority_lookup_user</sys_name>
+        <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_update_name>sys_user_role_53df57c8db373300e86f2a36ca9619d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-05 17:00:50</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</application>
+        <file_path/>
+        <instance_id>3cce5ae0dbc577c03050ac44d49619c1</instance_id>
+        <instance_name>dev82960</instance_name>
+        <name>sys_user_role_53df57c8db373300e86f2a36ca9619d0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_393226_erf.erf_priority_lookup_user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>erf_priority_lookup_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-05 17:00:50</sys_created_on><sys_id>53df57c8db373300e86f2a36ca9619d0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_393226_erf.erf_priority_lookup_user</sys_name><sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package><sys_policy/><sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope><sys_update_name>sys_user_role_53df57c8db373300e86f2a36ca9619d0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-05 17:00:50</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>237115686</payload_hash>
+        <record_name>x_393226_erf.erf_priority_lookup_user</record_name>
+        <reverted_from/>
+        <source>2295d680db333300e86f2a36ca9619bc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 17:00:50</sys_created_on>
+        <sys_id>57df57c8db373300e86f2a36ca9619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d025f1cc80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-05 17:00:50</sys_updated_on>
+        <type>Role</type>
+        <update_guid>9fdf57c8133733000d0c14b0793688d3</update_guid>
+        <update_guid_history>9fdf57c8133733000d0c14b0793688d3:237115686</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_393226_erf.erf_priority_lookup_user">248de4d8db7b3300e86f2a36ca96190b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-05 22:40:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>06e44516f5d64d5881ab2d8ad0b0a7e1</sys_id>
+        <sys_metadata>53df57c8db373300e86f2a36ca9619d0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_393226_erf.erf_priority_lookup_user</sys_name>
+        <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_scope_delete display_value="">dedd82609b484f3ca47a1eba6d019064</sys_scope_delete>
+        <sys_update_name>sys_user_role_53df57c8db373300e86f2a36ca9619d0</sys_update_name>
+        <sys_update_version display_value="sys_user_role_53df57c8db373300e86f2a36ca9619d0">57df57c8db373300e86f2a36ca9619d4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-05 22:40:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

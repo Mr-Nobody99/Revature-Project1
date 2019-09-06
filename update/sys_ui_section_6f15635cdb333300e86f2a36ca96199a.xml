@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="General Information" section_id="6f15635cdb333300e86f2a36ca96199a" sys_domain="global" table="x_393226_erf_employee_reimbursements" version="3" view="employee">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_employee</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-06 12:19:31</sys_created_on>
+            <sys_id>cc19ef10db733300e86f2a36ca9619f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General Information" display_value="General Information" name="x_393226_erf_employee_reimbursements" sys_domain="global" view="6f15635cdb333300e86f2a36ca96190d">6f15635cdb333300e86f2a36ca96199a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-06 12:19:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_travel_start</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-06 12:19:31</sys_created_on>
+            <sys_id>4019ef10db733300e86f2a36ca9619f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General Information" display_value="General Information" name="x_393226_erf_employee_reimbursements" sys_domain="global" view="6f15635cdb333300e86f2a36ca96190d">6f15635cdb333300e86f2a36ca96199a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-06 12:19:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_travel_end</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-06 12:19:31</sys_created_on>
+            <sys_id>c019ef10db733300e86f2a36ca9619f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General Information" display_value="General Information" name="x_393226_erf_employee_reimbursements" sys_domain="global" view="6f15635cdb333300e86f2a36ca96190d">6f15635cdb333300e86f2a36ca96199a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-06 12:19:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_short_justification</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-06 12:19:31</sys_created_on>
+            <sys_id>4419ef10db733300e86f2a36ca9619f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General Information" display_value="General Information" name="x_393226_erf_employee_reimbursements" sys_domain="global" view="6f15635cdb333300e86f2a36ca96190d">6f15635cdb333300e86f2a36ca96199a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-06 12:19:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-06 12:19:31</sys_created_on>
+            <sys_id>c419ef10db733300e86f2a36ca9619f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General Information" display_value="General Information" name="x_393226_erf_employee_reimbursements" sys_domain="global" view="6f15635cdb333300e86f2a36ca96190d">6f15635cdb333300e86f2a36ca96199a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-06 12:19:31</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_place</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-06 12:19:31</sys_created_on>
+            <sys_id>4819ef10db733300e86f2a36ca9619f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General Information" display_value="General Information" name="x_393226_erf_employee_reimbursements" sys_domain="global" view="6f15635cdb333300e86f2a36ca96190d">6f15635cdb333300e86f2a36ca96199a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-06 12:19:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_travel_mode</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-06 12:19:31</sys_created_on>
+            <sys_id>c819ef10db733300e86f2a36ca9619f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General Information" display_value="General Information" name="x_393226_erf_employee_reimbursements" sys_domain="global" view="6f15635cdb333300e86f2a36ca96190d">6f15635cdb333300e86f2a36ca96199a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-06 12:19:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_travel_type</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-06 12:19:31</sys_created_on>
+            <sys_id>4c19ef10db733300e86f2a36ca9619f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General Information" display_value="General Information" name="x_393226_erf_employee_reimbursements" sys_domain="global" view="6f15635cdb333300e86f2a36ca96190d">6f15635cdb333300e86f2a36ca96199a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-06 12:19:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_other_travel</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-06 12:19:31</sys_created_on>
+            <sys_id>cc19ef10db733300e86f2a36ca9619f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General Information" display_value="General Information" name="x_393226_erf_employee_reimbursements" sys_domain="global" view="6f15635cdb333300e86f2a36ca96190d">6f15635cdb333300e86f2a36ca96199a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-06 12:19:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_full_justification</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-06 12:19:31</sys_created_on>
+            <sys_id>4019ef10db733300e86f2a36ca9619f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General Information" display_value="General Information" name="x_393226_erf_employee_reimbursements" sys_domain="global" view="6f15635cdb333300e86f2a36ca96190d">6f15635cdb333300e86f2a36ca96199a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-06 12:19:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>General Information</caption>
+            <header>false</header>
+            <name>x_393226_erf_employee_reimbursements</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-06 12:02:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6f15635cdb333300e86f2a36ca96199a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>General Information</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+            <sys_update_name>sys_ui_section_6f15635cdb333300e86f2a36ca96199a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-06 12:02:16</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="employee" name="employee">6f15635cdb333300e86f2a36ca96190d</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
