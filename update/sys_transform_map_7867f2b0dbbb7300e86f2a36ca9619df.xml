@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>User imp transform</name>
+        <order>100</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>true</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// query user with Employee roles;
+	var employees = new GlideRecord('x_393226_erf_user_table');
+	employees.addQuery('roles', 'x_393226_erf.employee');
+	employees.query();
+	
+	while(employees.next()){//Create new group relationship
+		var ge = new GlideRecord('sys_user_grmember');
+		ge.initialize();
+		ge.user = employees.sys_id;
+		ge.group.setDisplayValue('Employees');
+		ge.insert();
+	}
+	
+	var leads = new GlideRecord('x_393226_erf_user_table');
+	leads.addQuery('roles', 'x_393226_erf.team-lead');
+	leads.query();
+	
+	while(leads.next()){
+		var gl = new GlideRecord('sys_user_grmember');
+		gl.initialize();
+		gl.user = leads.sys_id;
+		gl.group.setDisplayValue('Team Leads');
+		gl.insert();
+	}
+	
+	var managers = new GlideRecord('x_393226_erf_user_table');
+	managers.addQuery('roles', 'x_393226_erf.manager');
+	managers.query();
+	
+	while(managers.next()){
+		var gm = new GlideRecord('sys_user_grmember');
+		gm.initialize();
+		gm.user = managers.sys_id;
+		gm.group.setDisplayValue('Managers');
+		gm.insert();
+	}
+	
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>x_393226_erf_imp_data</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-07 22:00:31</sys_created_on>
+        <sys_id>7867f2b0dbbb7300e86f2a36ca9619df</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>User imp transform</sys_name>
+        <sys_package display_value="Employee Reimbursement App" source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement App">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_update_name>sys_transform_map_7867f2b0dbbb7300e86f2a36ca9619df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-08 00:20:41</sys_updated_on>
+        <target_table>x_393226_erf_user_table</target_table>
+    </sys_transform_map>
+</record_update>

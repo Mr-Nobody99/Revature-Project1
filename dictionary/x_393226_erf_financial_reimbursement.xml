@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Financial Reimbursement " max_length="40" name="x_393226_erf_financial_reimbursement" type="collection">
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Amount" max_length="20" name="u_amount" read_only="true" type="price"/>
+        <element attributes="encode_utf8=false" label="Recipient" max_length="32" name="u_recipient" read_only="true" reference="x_393226_erf_user_table" type="reference"/>
+    </element>
+</database>

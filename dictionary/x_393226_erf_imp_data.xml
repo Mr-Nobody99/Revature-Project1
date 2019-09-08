@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="User Import Data" max_length="40" name="x_393226_erf_imp_data" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Email" label="Email" max_length="40" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=First name" label="First name" max_length="40" name="u_first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Last name" label="Last name" max_length="40" name="u_last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Roles" label="Roles" max_length="40" name="u_roles" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=UserID" label="UserID" max_length="40" name="u_userid" type="string"/>
+    </element>
+</database>

@@ -40,7 +40,7 @@
     <sys_translated_text action="delete_multiple" query="documentkey=9e2f001cdbf73300e86f2a36ca9619c2"/>
     <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
-        <application display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</application>
+        <application display_value="Employee Reimbursement App">c8e7a57fdb633300e86f2a36ca9619c0</application>
         <file_path/>
         <instance_id>3cce5ae0dbc577c03050ac44d49619c1</instance_id>
         <instance_name>dev82960</instance_name>
@@ -82,10 +82,10 @@
         <sys_metadata>9e2f001cdbf73300e86f2a36ca9619c2</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_package display_value="Employee Reimbursement App" source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_scope display_value="Employee Reimbursement App">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
         <sys_scope_delete display_value="">dedd82609b484f3ca47a1eba6d019064</sys_scope_delete>
         <sys_update_name>sp_instance_9e2f001cdbf73300e86f2a36ca9619c2</sys_update_name>
         <sys_update_version display_value="sp_instance_9e2f001cdbf73300e86f2a36ca9619c2">4e3f401cdbf73300e86f2a36ca961978</sys_update_version>

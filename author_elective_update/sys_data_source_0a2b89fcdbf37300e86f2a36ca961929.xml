@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_source">
+    <sys_data_source action="DELETE">
+        <category/>
+        <connection_timeout>0</connection_timeout>
+        <connection_url>http://admin:${scp_password}@https://www.googleapis.com/drive/v3/file/15x9MYzNor7lnGUTi6j1jc2_hapmmCBDBDX7GDpG9CF4</connection_url>
+        <connection_url_parameters/>
+        <csv_delimiter/>
+        <database_name/>
+        <database_port/>
+        <discard_arrays>true</discard_arrays>
+        <expand_node_children>false</expand_node_children>
+        <file_path>15x9MYzNor7lnGUTi6j1jc2_hapmmCBDBDX7GDpG9CF4</file_path>
+        <file_retrieval_method>HTTP</file_retrieval_method>
+        <format>Excel</format>
+        <glide_keystore>false</glide_keystore>
+        <header_row>0</header_row>
+        <import_set_table_label>imp user</import_set_table_label>
+        <import_set_table_name>x_393226_erf_imp_user</import_set_table_name>
+        <instance_name/>
+        <jdbc_password/>
+        <jdbc_server/>
+        <jdbc_user_name/>
+        <jpath_root_node/>
+        <last_run_database_field/>
+        <last_run_datetime/>
+        <ldap_target/>
+        <maximum_rows/>
+        <mid_server/>
+        <name>Test User Import Data</name>
+        <oracle_port>1521</oracle_port>
+        <oracle_sid>orcl</oracle_sid>
+        <properties/>
+        <query>All Rows from Table</query>
+        <query_timeout>0</query_timeout>
+        <scp_authentication>Username and Password</scp_authentication>
+        <scp_password>sztYAu+Npid2KevTRiesLQ==</scp_password>
+        <scp_port/>
+        <scp_server>https://www.googleapis.com/drive/v3/file</scp_server>
+        <scp_user_name>admin</scp_user_name>
+        <sheet_number>0</sheet_number>
+        <sql_statement/>
+        <ssh_keyfile_path/>
+        <sys_class_name>sys_data_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-07 14:07:32</sys_created_on>
+        <sys_id>0a2b89fcdbf37300e86f2a36ca961929</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Test User Import Data</sys_name>
+        <sys_package display_value="Employee Reimbursement App" source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement App">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_update_name>sys_data_source_0a2b89fcdbf37300e86f2a36ca961929</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-07 21:33:18</sys_updated_on>
+        <table_name/>
+        <type>File</type>
+        <use_integrated_authentication>false</use_integrated_authentication>
+        <use_last_run_datetime>false</use_last_run_datetime>
+        <xpath_root_node/>
+        <zipped>false</zipped>
+    </sys_data_source>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Reimbursement App">c8e7a57fdb633300e86f2a36ca9619c0</application>
+        <file_path/>
+        <instance_id>3cce5ae0dbc577c03050ac44d49619c1</instance_id>
+        <instance_name>dev82960</instance_name>
+        <name>sys_data_source_0a2b89fcdbf37300e86f2a36ca961929</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_source"><sys_data_source action="INSERT_OR_UPDATE"><category/><connection_timeout>0</connection_timeout><connection_url>http://admin:${scp_password}@https://www.googleapis.com/drive/v3/file/15x9MYzNor7lnGUTi6j1jc2_hapmmCBDBDX7GDpG9CF4</connection_url><connection_url_parameters/><csv_delimiter/><database_name/><database_port/><discard_arrays>true</discard_arrays><expand_node_children>false</expand_node_children><file_path>15x9MYzNor7lnGUTi6j1jc2_hapmmCBDBDX7GDpG9CF4</file_path><file_retrieval_method>HTTP</file_retrieval_method><format>Excel</format><glide_keystore>false</glide_keystore><header_row>0</header_row><import_set_table_label>imp user</import_set_table_label><import_set_table_name>x_393226_erf_imp_user</import_set_table_name><instance_name/><jdbc_password/><jdbc_server/><jdbc_user_name/><jpath_root_node/><last_run_database_field/><last_run_datetime/><ldap_target/><maximum_rows/><mid_server/><name>Test User Import Data</name><oracle_port>1521</oracle_port><oracle_sid>orcl</oracle_sid><properties/><query>All Rows from Table</query><query_timeout>0</query_timeout><scp_authentication>Username and Password</scp_authentication><scp_password>sztYAu+Npid2KevTRiesLQ==</scp_password><scp_port/><scp_server>https://www.googleapis.com/drive/v3/file</scp_server><scp_user_name>admin</scp_user_name><sheet_number>0</sheet_number><sql_statement/><ssh_keyfile_path/><sys_class_name>sys_data_source</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-07 14:07:32</sys_created_on><sys_id>0a2b89fcdbf37300e86f2a36ca961929</sys_id><sys_mod_count>8</sys_mod_count><sys_name>Test User Import Data</sys_name><sys_package display_value="Employee Reimbursement App" source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package><sys_policy/><sys_scope display_value="Employee Reimbursement App">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope><sys_update_name>sys_data_source_0a2b89fcdbf37300e86f2a36ca961929</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-07 21:33:18</sys_updated_on><table_name/><type>File</type><use_integrated_authentication>false</use_integrated_authentication><use_last_run_datetime>false</use_last_run_datetime><xpath_root_node/><zipped>false</zipped></sys_data_source></record_update>]]></payload>
+        <payload_hash>-1135003100</payload_hash>
+        <record_name>Test User Import Data</record_name>
+        <reverted_from/>
+        <source>2295d680db333300e86f2a36ca9619bc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-07 21:33:19</sys_created_on>
+        <sys_id>8a613af8db7b7300e86f2a36ca96191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d0da54b0e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-07 21:33:19</sys_updated_on>
+        <type>Data Source</type>
+        <update_guid>06613af8b47b7300f6b24559d3de551e</update_guid>
+        <update_guid_history>06613af8b47b7300f6b24559d3de551e:-1135003100,95efe2b8fa7b7300ccae2f126e52b9bc:855324306,2fafa2b8957b73001a5ca516b0cbc402:1375756523,ba0f62b84b7b730003144dc071974a5a:1018357500,ffee66741c7b7300f111c705538d0b9a:-682596543,f7be6674ce7b730075c9488aa1754497:-402138541,52be2a74d17b730096abbb50c161418f:-682596543,03d2defc2cf773005071a07180fdda27:1343035157,0cd455b810377300040743f43587c711:-332065008,086b49306e3773008206bea7975af898:-1936428818</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-07 21:34:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_source">sys_data_source</sys_db_object>
+        <sys_id>0e528389fbff43268daa1373567a0cb1</sys_id>
+        <sys_metadata>0a2b89fcdbf37300e86f2a36ca961929</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test User Import Data</sys_name>
+        <sys_package display_value="Employee Reimbursement App" source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement App">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_scope_delete display_value="">dedd82609b484f3ca47a1eba6d019064</sys_scope_delete>
+        <sys_update_name>sys_data_source_0a2b89fcdbf37300e86f2a36ca961929</sys_update_name>
+        <sys_update_version display_value="sys_data_source_0a2b89fcdbf37300e86f2a36ca961929">8a613af8db7b7300e86f2a36ca96191e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-07 21:34:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

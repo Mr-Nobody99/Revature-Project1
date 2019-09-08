@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_393226_erf_employee_reimbursements</description>
+        <name>x_393226_erf_employee_reimbursements</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-08 04:33:44</sys_created_on>
+        <sys_id>bca19841dbff7300e86f2a36ca9619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_393226_erf_employee_reimbursements</sys_name>
+        <sys_package display_value="Employee Reimbursement App" source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement App">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_update_name>sys_security_acl_bca19841dbff7300e86f2a36ca9619f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-08 04:33:44</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Reimbursement App">c8e7a57fdb633300e86f2a36ca9619c0</application>
+        <file_path/>
+        <instance_id>3cce5ae0dbc577c03050ac44d49619c1</instance_id>
+        <instance_name>dev82960</instance_name>
+        <name>sys_security_acl_bca19841dbff7300e86f2a36ca9619f7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_393226_erf_employee_reimbursements</description><name>x_393226_erf_employee_reimbursements</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-08 04:33:44</sys_created_on><sys_id>bca19841dbff7300e86f2a36ca9619f7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_393226_erf_employee_reimbursements</sys_name><sys_package display_value="Employee Reimbursement App" source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package><sys_policy/><sys_scope display_value="Employee Reimbursement App">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope><sys_update_name>sys_security_acl_bca19841dbff7300e86f2a36ca9619f7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-08 04:33:44</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>958970926</payload_hash>
+        <record_name>x_393226_erf_employee_reimbursements</record_name>
+        <reverted_from/>
+        <source>2295d680db333300e86f2a36ca9619bc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-08 04:33:44</sys_created_on>
+        <sys_id>f0a19841dbff7300e86f2a36ca9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d0f2633db0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-08 04:33:44</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>3ca19841b1ff7300a794e092f1f332f9</update_guid>
+        <update_guid_history>3ca19841b1ff7300a794e092f1f332f9:958970926</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-08 04:40:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>359ec7a27918474486f1d00b48b1e119</sys_id>
+        <sys_metadata>bca19841dbff7300e86f2a36ca9619f7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_393226_erf_employee_reimbursements</sys_name>
+        <sys_package display_value="Employee Reimbursement App" source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_parent display_value="x_393226_erf_employee_reimbursements">90955680db333300e86f2a36ca961906</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement App">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_scope_delete display_value="">dedd82609b484f3ca47a1eba6d019064</sys_scope_delete>
+        <sys_update_name>sys_security_acl_bca19841dbff7300e86f2a36ca9619f7</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_bca19841dbff7300e86f2a36ca9619f7">f0a19841dbff7300e86f2a36ca9619fa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-08 04:40:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

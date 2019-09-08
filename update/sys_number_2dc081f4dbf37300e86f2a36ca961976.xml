@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_393226_erf_user_table">x_393226_erf_user_table</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>USR</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-07 13:21:13</sys_created_on>
+        <sys_id>2dc081f4dbf37300e86f2a36ca961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>USR</sys_name>
+        <sys_package display_value="Employee Reimbursement App" source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Reimbursement App">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+        <sys_update_name>sys_number_2dc081f4dbf37300e86f2a36ca961976</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-07 13:21:13</sys_updated_on>
+    </sys_number>
+</record_update>

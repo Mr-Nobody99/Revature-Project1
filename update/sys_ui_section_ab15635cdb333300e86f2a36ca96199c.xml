@@ -4,13 +4,13 @@
             <element>u_expense_type</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-06 12:16:12</sys_created_on>
-            <sys_id>eb482710db733300e86f2a36ca96197e</sys_id>
+            <sys_created_on>2019-09-07 18:30:23</sys_created_on>
+            <sys_id>6e8746f4dbf77300e86f2a36ca961915</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Expenses" display_value="Expenses" name="x_393226_erf_employee_reimbursements" sys_domain="global" view="6f15635cdb333300e86f2a36ca96190d">ab15635cdb333300e86f2a36ca96199c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-06 12:16:12</sys_updated_on>
+            <sys_updated_on>2019-09-07 18:30:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>u_amount</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-06 12:16:12</sys_created_on>
-            <sys_id>6f482710db733300e86f2a36ca96197e</sys_id>
+            <sys_created_on>2019-09-07 18:30:23</sys_created_on>
+            <sys_id>ee8746f4dbf77300e86f2a36ca961915</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Expenses" display_value="Expenses" name="x_393226_erf_employee_reimbursements" sys_domain="global" view="6f15635cdb333300e86f2a36ca96190d">ab15635cdb333300e86f2a36ca96199c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-06 12:16:12</sys_updated_on>
+            <sys_updated_on>2019-09-07 18:30:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>u_payment_method</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-06 12:16:12</sys_created_on>
-            <sys_id>ef482710db733300e86f2a36ca96197e</sys_id>
+            <sys_created_on>2019-09-07 18:30:23</sys_created_on>
+            <sys_id>628746f4dbf77300e86f2a36ca961916</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Expenses" display_value="Expenses" name="x_393226_erf_employee_reimbursements" sys_domain="global" view="6f15635cdb333300e86f2a36ca96190d">ab15635cdb333300e86f2a36ca96199c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-06 12:16:12</sys_updated_on>
+            <sys_updated_on>2019-09-07 18:30:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,27 @@
             <element>u_other_payment</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-06 12:16:12</sys_created_on>
-            <sys_id>63482710db733300e86f2a36ca96197f</sys_id>
+            <sys_created_on>2019-09-07 18:30:23</sys_created_on>
+            <sys_id>e28746f4dbf77300e86f2a36ca961916</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Expenses" display_value="Expenses" name="x_393226_erf_employee_reimbursements" sys_domain="global" view="6f15635cdb333300e86f2a36ca96190d">ab15635cdb333300e86f2a36ca96199c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-06 12:16:12</sys_updated_on>
+            <sys_updated_on>2019-09-07 18:30:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_full_justification</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-07 18:30:23</sys_created_on>
+            <sys_id>668746f4dbf77300e86f2a36ca961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Expenses" display_value="Expenses" name="x_393226_erf_employee_reimbursements" sys_domain="global" view="6f15635cdb333300e86f2a36ca96190d">ab15635cdb333300e86f2a36ca96199c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-07 18:30:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -70,9 +84,9 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Expenses</sys_name>
             <sys_overrides/>
-            <sys_package display_value="Employee Reimbursement Form " source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+            <sys_package display_value="Employee Reimbursement App" source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
             <sys_policy/>
-            <sys_scope display_value="Employee Reimbursement Form ">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+            <sys_scope display_value="Employee Reimbursement App">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
             <sys_update_name>sys_ui_section_ab15635cdb333300e86f2a36ca96199c</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-09-06 12:02:16</sys_updated_on>
