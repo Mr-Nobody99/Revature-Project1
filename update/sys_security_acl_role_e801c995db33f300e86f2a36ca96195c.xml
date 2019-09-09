@@ -2,18 +2,18 @@
     <sys_security_acl_role action="INSERT_OR_UPDATE">
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-09-08 04:38:46</sys_created_on>
-        <sys_id>5ac2d881dbff7300e86f2a36ca9619a4</sys_id>
+        <sys_created_on>2019-09-09 02:39:57</sys_created_on>
+        <sys_id>e801c995db33f300e86f2a36ca96195c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_393226_erf_financial_reimbursement.x_393226_erf.employee</sys_name>
+        <sys_name>x_393226_erf_user_table.x_393226_erf.manager</sys_name>
         <sys_package display_value="Employee Reimbursement App" source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
         <sys_policy/>
         <sys_scope display_value="Employee Reimbursement App">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
-        <sys_security_acl display_value="x_393226_erf_financial_reimbursement">1ec2d881dbff7300e86f2a36ca9619a1</sys_security_acl>
-        <sys_update_name>sys_security_acl_role_5ac2d881dbff7300e86f2a36ca9619a4</sys_update_name>
+        <sys_security_acl display_value="x_393226_erf_user_table">15c081f4dbf37300e86f2a36ca961918</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_e801c995db33f300e86f2a36ca96195c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-08 04:38:46</sys_updated_on>
-        <sys_user_role display_value="x_393226_erf.employee" name="x_393226_erf.employee">5938e5bfdb633300e86f2a36ca9619bf</sys_user_role>
+        <sys_updated_on>2019-09-09 02:39:57</sys_updated_on>
+        <sys_user_role display_value="x_393226_erf.manager" name="x_393226_erf.manager">452ea8d8db7b3300e86f2a36ca961951</sys_user_role>
         <transaction_id/>
     </sys_security_acl_role>
 </record_update>

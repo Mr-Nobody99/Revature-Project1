@@ -1,58 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="327bdc89dbff7300e86f2a36ca9619d4" sys_domain="global" table="x_393226_erf_financial_reimbursement" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_recipient</element>
+            <element>state</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-08 17:17:08</sys_created_on>
-            <sys_id>0f50cf01db7bb300e86f2a36ca961985</sys_id>
+            <sys_created_on>2019-09-09 00:56:15</sys_created_on>
+            <sys_id>ec7920dddbbfb300e86f2a36ca9619d6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_393226_erf_financial_reimbursement" sys_domain="global" view="Default view">327bdc89dbff7300e86f2a36ca9619d4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-08 17:17:08</sys_updated_on>
+            <sys_updated_on>2019-09-09 00:56:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_recipient</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 00:56:15</sys_created_on>
+            <sys_id>647920dddbbfb300e86f2a36ca9619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_393226_erf_financial_reimbursement" sys_domain="global" view="Default view">327bdc89dbff7300e86f2a36ca9619d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 00:56:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_amount</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-08 17:17:08</sys_created_on>
-            <sys_id>8f50cf01db7bb300e86f2a36ca961985</sys_id>
+            <sys_created_on>2019-09-09 00:56:15</sys_created_on>
+            <sys_id>e47920dddbbfb300e86f2a36ca9619d7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_393226_erf_financial_reimbursement" sys_domain="global" view="Default view">327bdc89dbff7300e86f2a36ca9619d4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-08 17:17:08</sys_updated_on>
+            <sys_updated_on>2019-09-09 00:56:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>approval</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-08 17:17:08</sys_created_on>
-            <sys_id>0350cf01db7bb300e86f2a36ca961986</sys_id>
+            <sys_created_on>2019-09-09 00:56:15</sys_created_on>
+            <sys_id>687920dddbbfb300e86f2a36ca9619d7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_393226_erf_financial_reimbursement" sys_domain="global" view="Default view">327bdc89dbff7300e86f2a36ca9619d4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-08 17:17:08</sys_updated_on>
+            <sys_updated_on>2019-09-09 00:56:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>short_description</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-08 17:17:08</sys_created_on>
-            <sys_id>8350cf01db7bb300e86f2a36ca961986</sys_id>
+            <sys_created_on>2019-09-09 00:56:15</sys_created_on>
+            <sys_id>e87920dddbbfb300e86f2a36ca9619d7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_393226_erf_financial_reimbursement" sys_domain="global" view="Default view">327bdc89dbff7300e86f2a36ca9619d4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-08 17:17:08</sys_updated_on>
+            <sys_updated_on>2019-09-09 00:56:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

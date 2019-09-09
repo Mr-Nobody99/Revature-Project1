@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="dd76451ddb33f300e86f2a36ca961919" sys_domain="global" table="x_393226_erf_employee_reimbursements" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 03:03:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d976451ddb33f300e86f2a36ca96191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_393226_erf_employee_reimbursements" name="x_393226_erf_employee_reimbursements" sys_domain="global" view="9576451ddb33f300e86f2a36ca961915">dd76451ddb33f300e86f2a36ca961919</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_393226_erf_employee_reimbursements" sys_domain="global" view="9576451ddb33f300e86f2a36ca961915">9576451ddb33f300e86f2a36ca961918</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 03:03:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 03:03:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9576451ddb33f300e86f2a36ca96191c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_393226_erf_employee_reimbursements" name="x_393226_erf_employee_reimbursements" sys_domain="global" view="9576451ddb33f300e86f2a36ca961915">dd76451ddb33f300e86f2a36ca961919</sys_ui_form>
+            <sys_ui_section caption="Reimbursement Info" display_value="Reimbursement Info" name="x_393226_erf_employee_reimbursements" sys_domain="global" view="9576451ddb33f300e86f2a36ca961915">5d76451ddb33f300e86f2a36ca961918</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 03:03:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 03:03:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9d76451ddb33f300e86f2a36ca96199b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_393226_erf_employee_reimbursements" name="x_393226_erf_employee_reimbursements" sys_domain="global" view="9576451ddb33f300e86f2a36ca961915">dd76451ddb33f300e86f2a36ca961919</sys_ui_form>
+            <sys_ui_section caption="Extra" display_value="Extra" name="x_393226_erf_employee_reimbursements" sys_domain="global" view="9576451ddb33f300e86f2a36ca961915">1576451ddb33f300e86f2a36ca961919</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 03:03:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_393226_erf_employee_reimbursements</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-09 03:03:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dd76451ddb33f300e86f2a36ca961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_393226_erf_employee_reimbursements</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Employee Reimbursement App" source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Reimbursement App">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
+            <sys_update_name>sys_ui_form_sections_dd76451ddb33f300e86f2a36ca961919</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-09 03:03:00</sys_updated_on>
+            <sys_user/>
+            <view display_value="Lead" name="Lead">9576451ddb33f300e86f2a36ca961915</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
