@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Employee Reimbursement Request" max_length="40" name="x_393226_erf_employee_reimbursements" sizeclass="6" type="collection">
+    <element extends="task" label="Employee Reimbursement Request" max_length="40" name="x_393226_erf_employee_reimbursements" type="collection">
         <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Reimbursement Amount" max_length="20" name="u_amount" read_only="true" type="price"/>
         <element attributes="encode_utf8=false" label="Employee" mandatory="true" max_length="32" name="u_employee" reference="x_393226_erf_user_table" type="reference"/>
         <element label="Expense Type" mandatory="true" max_length="4000" name="u_expense_type" type="simple_name_values"/>
         <element attributes="edge_encryption_enabled=true" label="Full Justification" mandatory="true" max_length="1000" name="u_full_justification" type="string"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="New List" max_length="1024" name="u_glide_list_1" reference="x_393226_erf_employee_reimbursements" type="glide_list"/>
         <element choice="3" default="1" label="Impact" mandatory="true" max_length="40" name="u_impact" type="integer">
-            <choice>
-                <element inactive_on_update="false" label="1 - High" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="2 - Medium" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="3 - Low" sequence="2" value="3"/>
-            </choice>
+            <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" label="If Other" max_length="100" name="u_other_payment" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="If Other" max_length="150" name="u_other_travel" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="credit" label="Payment Method" mandatory="true" max_length="40" name="u_payment_method" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Cash" sequence="0" value="cash"/>
-                <element inactive_on_update="false" label="Credit Card" sequence="1" value="credit"/>
-                <element inactive_on_update="false" label="Other" sequence="2" value="other"/>
-            </choice>
+            <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Official Place of Visit" mandatory="true" max_length="120" name="u_place" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Short Justification" mandatory="true" max_length="150" name="u_short_justification" type="string"/>
@@ -27,26 +19,14 @@
         <element label="New Name-Value Pairs" max_length="4000" name="u_simple_name_values_4" type="simple_name_values"/>
         <element attributes="edge_encryption_enabled=true" label="Travel End Date" mandatory="true" max_length="40" name="u_travel_end" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="flight" label="Mode of Travel" mandatory="true" max_length="40" name="u_travel_mode" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Flight" sequence="0" value="flight"/>
-                <element inactive_on_update="false" label="Train" sequence="1" value="train"/>
-                <element inactive_on_update="false" label="Bus" sequence="2" value="bus"/>
-                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
-            </choice>
+            <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Travel Start Date" mandatory="true" max_length="40" name="u_travel_start" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="economy" label="Type of Travel" mandatory="true" max_length="40" name="u_travel_type" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Economy" sequence="0" value="economy"/>
-                <element inactive_on_update="false" label="Business" sequence="1" value="business"/>
-            </choice>
+            <choice/>
         </element>
         <element choice="3" default="1" label="Urgency" mandatory="true" max_length="40" name="u_urgency" type="integer">
-            <choice>
-                <element inactive_on_update="false" label="1 - High" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="2 - Medium" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="3 - Low" sequence="2" value="3"/>
-            </choice>
+            <choice/>
         </element>
     </element>
 </database>

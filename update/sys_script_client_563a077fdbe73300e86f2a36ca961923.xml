@@ -66,7 +66,7 @@ function makePairs(control) {
 function doVerify(nvPairs, keys) {
     if (isNaN(nvPairs[keys[keys.length - 1]])) { //Check if most recent value entered is NaN.
 
-        alert('Invalid Value!\nValue must be number.');
+        g_form.addErrorMessage('Invalid Value!\nValue must be number.');
 
         nvPairs[keys[keys.length - 1]] = ''; //Set the invalid value to empty string.
         var str = JSON.stringify(nvPairs); //Convert object to string.
@@ -86,7 +86,7 @@ function doVerify(nvPairs, keys) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>563a077fdbe73300e86f2a36ca961923</sys_id>
-        <sys_mod_count>70</sys_mod_count>
+        <sys_mod_count>71</sys_mod_count>
         <sys_name>Manage Expense Type</sys_name>
         <sys_overrides/>
         <sys_package display_value="Employee Reimbursement App" source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
@@ -94,7 +94,7 @@ function doVerify(nvPairs, keys) {
         <sys_scope display_value="Employee Reimbursement App">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
         <sys_update_name>sys_script_client_563a077fdbe73300e86f2a36ca961923</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-06 21:01:28</sys_updated_on>
+        <sys_updated_on>2019-09-09 13:55:15</sys_updated_on>
         <table>x_393226_erf_employee_reimbursements</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

@@ -14,7 +14,7 @@
             <sys_scope/>
             <sys_update_name/>
             <sys_updated_by/>
-            <sys_updated_on>2019-09-05 11:36:06</sys_updated_on>
+            <sys_updated_on>2019-09-09 13:37:03</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
     <sys_update_version action="INSERT_OR_UPDATE">
@@ -24,32 +24,32 @@
         <instance_id>3cce5ae0dbc577c03050ac44d49619c1</instance_id>
         <instance_name>dev82960</instance_name>
         <name>sys_choice_x_393226_erf_employee_reimbursements_u_urgency</name>
-        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="DELETE" field="u_urgency" table="x_393226_erf_employee_reimbursements" version="3"><sys_choice_set action="DELETE"><element>u_urgency</element><name>x_393226_erf_employee_reimbursements</name><sys_class_name/><sys_created_by/><sys_created_on/><sys_id/><sys_mod_count/><sys_name/><sys_package/><sys_policy/><sys_scope/><sys_update_name/><sys_updated_by/><sys_updated_on>2019-09-05 11:36:06</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="DELETE" field="u_urgency" table="x_393226_erf_employee_reimbursements" version="3"><sys_choice_set action="DELETE"><element>u_urgency</element><name>x_393226_erf_employee_reimbursements</name><sys_class_name/><sys_created_by/><sys_created_on/><sys_id/><sys_mod_count/><sys_name/><sys_package/><sys_policy/><sys_scope/><sys_update_name/><sys_updated_by/><sys_updated_on>2019-09-09 13:37:03</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
         <payload_hash>979793248</payload_hash>
         <record_name>x_393226_erf_employee_reimbursements.u_urgency</record_name>
         <reverted_from/>
-        <source>dac2aff3db6b3300e86f2a36ca961978</source>
+        <source>2295d680db333300e86f2a36ca9619bc</source>
         <source_table>sys_update_set</source_table>
         <state>previous</state>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-09-05 11:36:06</sys_created_on>
-        <sys_id>1e859280db333300e86f2a36ca9619d4</sys_id>
+        <sys_created_on>2019-09-09 13:37:03</sys_created_on>
+        <sys_id>cd97df55db733300e86f2a36ca96193e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_recorded_at>16d0135cd860000001</sys_recorded_at>
+        <sys_recorded_at>16d163df84a0000001</sys_recorded_at>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-05 11:36:06</sys_updated_on>
+        <sys_updated_on>2019-09-09 13:37:03</sys_updated_on>
         <type>Choice list</type>
-        <update_guid>96859280d0333300ebda55de16be22d4</update_guid>
-        <update_guid_history>96859280d0333300ebda55de16be22d4:979793248,52859280a7333300b71aefad15fc74d1:154056685,de859280d5333300757baceb53efabcd:266010928,9a3fa5b78ba33300b5d68243ec4047bc:458113795</update_guid_history>
+        <update_guid>4997df5567733300dc0b50274125913e</update_guid>
+        <update_guid_history>4997df5567733300dc0b50274125913e:979793248,8197df55fe733300b0977b33d598c63b:749600882,8d97df552b733300063514c2b8f16337:-850280843,96859280d0333300ebda55de16be22d4:979793248,52859280a7333300b71aefad15fc74d1:154056685,de859280d5333300757baceb53efabcd:266010928,9a3fa5b78ba33300b5d68243ec4047bc:458113795</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
         <sys_audit_delete/>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-09-05 11:36:20</sys_created_on>
+        <sys_created_on>2019-09-09 13:37:31</sys_created_on>
         <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
-        <sys_id>20955680db333300e86f2a36ca96192e</sys_id>
-        <sys_metadata>20955680db333300e86f2a36ca96192e</sys_metadata>
+        <sys_id>27979395db733300e86f2a36ca96198c</sys_id>
+        <sys_metadata>27979395db733300e86f2a36ca96198c</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>u_urgency</sys_name>
         <sys_package display_value="Employee Reimbursement App" source="x_393226_erf">c8e7a57fdb633300e86f2a36ca9619c0</sys_package>
@@ -58,8 +58,8 @@
         <sys_scope display_value="Employee Reimbursement App">c8e7a57fdb633300e86f2a36ca9619c0</sys_scope>
         <sys_scope_delete display_value="">dedd82609b484f3ca47a1eba6d019064</sys_scope_delete>
         <sys_update_name>sys_choice_x_393226_erf_employee_reimbursements_u_urgency</sys_update_name>
-        <sys_update_version display_value="sys_choice_x_393226_erf_employee_reimbursements_u_urgency">1e859280db333300e86f2a36ca9619d4</sys_update_version>
+        <sys_update_version display_value="sys_choice_x_393226_erf_employee_reimbursements_u_urgency">cd97df55db733300e86f2a36ca96193e</sys_update_version>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-05 11:36:20</sys_updated_on>
+        <sys_updated_on>2019-09-09 13:37:31</sys_updated_on>
     </sys_metadata_delete>
 </record_update>

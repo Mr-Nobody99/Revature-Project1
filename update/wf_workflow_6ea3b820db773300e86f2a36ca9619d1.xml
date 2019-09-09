@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"activities":{},"ends":["f8fe302cdb773300e86f2a36ca9619b7"],"subflows":["fb461c45dbff7300e86f2a36ca9619e9"],"stages":{}}</activity_stages>
+        <activity_stages>{"ends":["f8fe302cdb773300e86f2a36ca9619b7"],"activities":{},"stages":{},"subflows":["fb461c45dbff7300e86f2a36ca9619e9"]}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
@@ -33,9 +33,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-06 18:34:45</sys_created_on>
         <sys_id>bcfe302cdb773300e86f2a36ca9619b5</sys_id>
-        <sys_mod_count>1033</sys_mod_count>
+        <sys_mod_count>1034</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-09 02:02:03</sys_updated_on>
+        <sys_updated_on>2019-09-09 13:44:48</sys_updated_on>
         <table>x_393226_erf_employee_reimbursements</table>
         <timezone/>
         <validated>true</validated>
